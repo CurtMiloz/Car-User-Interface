@@ -23,9 +23,9 @@ namespace CarInterface
     public sealed partial class MediaPage : Page
     {
 
-        String[] playlist = { "Playlist 1", "Playlist 2", "Playlist 3", "Playlist 4", "Playlist 5" };
-        String[] song = { "Song 1", "Song 2", "Song 3", "Song 4", "Song 5", "Song 6" };
-        String[] by = { "by: 1", "by: 2", "by: 3", "by: 4", "by: 5", "by: 6" };
+        String[] playlist = { "Playlist 1", "Playlist 2", "Playlist 3", "Playlist 4", "Playlist 5", "Awesome..."};
+        String[] song = { "Song 1", "Song 2", "Song 3", "Song 4", "Song 5", "Song 6", "Heat of the Moment" };
+        String[] by = { "by: 1", "by: 2", "by: 3", "by: 4", "by: 5", "by: 6", "by: Asia" };
 
 
         //This is the booleans for the button logic 

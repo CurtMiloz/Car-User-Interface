@@ -36,7 +36,7 @@ namespace CarInterface
         public int currentStation = 4;
         public int[] radioMapping = { 4, 3, 0, 2, 1 };
 
-        public int currentPlaylist = -1;
+        public int currentPlaylist = 5;
         public int currSong = 0;
         public int[] playlistMapping = { 0, 1, 2, 3, 4 };
 

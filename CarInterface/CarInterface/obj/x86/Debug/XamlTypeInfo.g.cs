@@ -132,25 +132,35 @@ namespace CarInterface.CarInterface_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[8];
+            _typeNameTable = new string[13];
             _typeNameTable[0] = "CarInterface.Dial";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[2] = "Double";
             _typeNameTable[3] = "Int32";
-            _typeNameTable[4] = "CarInterface.MainPage";
+            _typeNameTable[4] = "CarInterface.AirPage";
             _typeNameTable[5] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[6] = "CarInterface.MediaPage";
-            _typeNameTable[7] = "CarInterface.SettingsPage";
+            _typeNameTable[6] = "CarInterface.CallPage";
+            _typeNameTable[7] = "CarInterface.CarAboutPage";
+            _typeNameTable[8] = "CarInterface.MainPage";
+            _typeNameTable[9] = "CarInterface.MediaPage";
+            _typeNameTable[10] = "CarInterface.MusicSettingPage";
+            _typeNameTable[11] = "CarInterface.PairPage";
+            _typeNameTable[12] = "CarInterface.SettingsPage";
 
-            _typeTable = new global::System.Type[8];
+            _typeTable = new global::System.Type[13];
             _typeTable[0] = typeof(global::CarInterface.Dial);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[2] = typeof(global::System.Double);
             _typeTable[3] = typeof(global::System.Int32);
-            _typeTable[4] = typeof(global::CarInterface.MainPage);
+            _typeTable[4] = typeof(global::CarInterface.AirPage);
             _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[6] = typeof(global::CarInterface.MediaPage);
-            _typeTable[7] = typeof(global::CarInterface.SettingsPage);
+            _typeTable[6] = typeof(global::CarInterface.CallPage);
+            _typeTable[7] = typeof(global::CarInterface.CarAboutPage);
+            _typeTable[8] = typeof(global::CarInterface.MainPage);
+            _typeTable[9] = typeof(global::CarInterface.MediaPage);
+            _typeTable[10] = typeof(global::CarInterface.MusicSettingPage);
+            _typeTable[11] = typeof(global::CarInterface.PairPage);
+            _typeTable[12] = typeof(global::CarInterface.SettingsPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -186,9 +196,14 @@ namespace CarInterface.CarInterface_XamlTypeInfo
         }
 
         private object Activate_0_Dial() { return new global::CarInterface.Dial(); }
-        private object Activate_4_MainPage() { return new global::CarInterface.MainPage(); }
-        private object Activate_6_MediaPage() { return new global::CarInterface.MediaPage(); }
-        private object Activate_7_SettingsPage() { return new global::CarInterface.SettingsPage(); }
+        private object Activate_4_AirPage() { return new global::CarInterface.AirPage(); }
+        private object Activate_6_CallPage() { return new global::CarInterface.CallPage(); }
+        private object Activate_7_CarAboutPage() { return new global::CarInterface.CarAboutPage(); }
+        private object Activate_8_MainPage() { return new global::CarInterface.MainPage(); }
+        private object Activate_9_MediaPage() { return new global::CarInterface.MediaPage(); }
+        private object Activate_10_MusicSettingPage() { return new global::CarInterface.MusicSettingPage(); }
+        private object Activate_11_PairPage() { return new global::CarInterface.PairPage(); }
+        private object Activate_12_SettingsPage() { return new global::CarInterface.SettingsPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -221,9 +236,9 @@ namespace CarInterface.CarInterface_XamlTypeInfo
                 xamlType = new global::CarInterface.CarInterface_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  CarInterface.MainPage
+            case 4:   //  CarInterface.AirPage
                 userType = new global::CarInterface.CarInterface_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_MainPage;
+                userType.Activator = Activate_4_AirPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -232,16 +247,51 @@ namespace CarInterface.CarInterface_XamlTypeInfo
                 xamlType = new global::CarInterface.CarInterface_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  CarInterface.MediaPage
+            case 6:   //  CarInterface.CallPage
                 userType = new global::CarInterface.CarInterface_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_MediaPage;
+                userType.Activator = Activate_6_CallPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  CarInterface.SettingsPage
+            case 7:   //  CarInterface.CarAboutPage
                 userType = new global::CarInterface.CarInterface_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_SettingsPage;
+                userType.Activator = Activate_7_CarAboutPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  CarInterface.MainPage
+                userType = new global::CarInterface.CarInterface_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 9:   //  CarInterface.MediaPage
+                userType = new global::CarInterface.CarInterface_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_MediaPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 10:   //  CarInterface.MusicSettingPage
+                userType = new global::CarInterface.CarInterface_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_10_MusicSettingPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 11:   //  CarInterface.PairPage
+                userType = new global::CarInterface.CarInterface_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_11_PairPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  CarInterface.SettingsPage
+                userType = new global::CarInterface.CarInterface_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_12_SettingsPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

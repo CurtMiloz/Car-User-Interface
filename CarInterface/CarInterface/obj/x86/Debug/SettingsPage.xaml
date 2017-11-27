@@ -21,12 +21,12 @@
         <Button x:ConnectionId='5' x:Name="btAir" Content="Air" HorizontalAlignment="Left" Margin="570,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255"                     FontSize="72"/>
         <Button x:ConnectionId='6' x:Name="btMedia" Content="Media" HorizontalAlignment="Left" Margin="1097,705,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255"                       FontSize="72" Grid.ColumnSpan="2"/>
         <Button x:ConnectionId='7' x:Name="btSetting" Content="Settings" HorizontalAlignment="Left" Margin="207.5,705,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255"                          FontSize="65" Grid.Column="1"/>
-        <Button x:ConnectionId='8' x:Name="btMusicSettings" Content="" HorizontalAlignment="Left" Margin="380,375,0,0" VerticalAlignment="Top" Height="200" Width="257"                        FontSize="72">
+        <Button x:ConnectionId='8' x:Name="btMusicSettings" Content="" HorizontalAlignment="Left" Margin="502,377,0,0" VerticalAlignment="Top" Height="200" Width="257"                        FontSize="72">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/icons8-Music-48.png"/>
             </Button.Background>
         </Button>
-        <Button x:ConnectionId='9' x:Name="btPhonePairing" Content="" HorizontalAlignment="Left" Margin="380,68,0,0" VerticalAlignment="Top" Height="212" Width="199"                             FontSize="72">
+        <Button x:ConnectionId='9' x:Name="btPhonePairing" Content="" HorizontalAlignment="Left" Margin="560,68,0,0" VerticalAlignment="Top" Height="212" Width="199"                             FontSize="72">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/icons8-NFC-48.png"/>
             </Button.Background>
@@ -87,17 +87,22 @@
         <Ellipse x:ConnectionId='24' x:Name="ledIntCirc" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="266,877,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Ellipse x:ConnectionId='25' x:Name="ledHazard" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="10,626,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Grid x:ConnectionId='26' ManipulationMode="All"                                            >
-            <local:Dial x:ConnectionId='34' x:Name="dlVolume" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='35' x:Name="dlVolume" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid x:ConnectionId='27' ManipulationMode="All"                                          >
-            <local:Dial x:ConnectionId='33' x:Name="dlTune" HorizontalAlignment="Left" Margin="1726,20,-694,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='34' x:Name="dlTune" HorizontalAlignment="Left" Margin="1726,20,-694,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid x:ConnectionId='28' ManipulationMode="All"                                         >
-            <local:Dial x:ConnectionId='32' x:Name="dlAir" HorizontalAlignment="Left" Margin="929,865,0,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='33' x:Name="dlAir" HorizontalAlignment="Left" Margin="929,865,0,0" VerticalAlignment="Top"/>
         </Grid>
         <TextBlock x:ConnectionId='29' x:Name="lblVolume" HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" Text="Volume" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:ConnectionId='30' x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
         <TextBlock x:ConnectionId='31' x:Name="lblAir" HorizontalAlignment="Left" Margin="990,935,0,0" TextWrapping="Wrap" Text="Air" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="-0.011,1.865"/>
+        <Button x:ConnectionId='32' Content="" HorizontalAlignment="Left" Margin="205,10,0,0" VerticalAlignment="Top" Height="175" Width="211"                     >
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/icons8-Back-48.png"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Page>
