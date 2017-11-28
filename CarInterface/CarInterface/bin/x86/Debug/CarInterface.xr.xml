@@ -71,22 +71,39 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="RenderTransformOrigin" />
-    </RootType>
-    <RootType FullName="CarInterface.Dial">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Inlines" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="Stretch" />
       <RootProperty Name="ImageSource" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="Rotation" />
       <RootProperty Name="SkewX" />
       <RootProperty Name="TranslateX" />
-      <RootProperty Name="Rotation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
+      <RootProperty Name="EndPoint" />
+      <RootProperty Name="StartPoint" />
+      <RootProperty Name="GradientStops" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
+      <RootProperty Name="Color" />
+      <RootProperty Name="Offset" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="CarInterface.Dial">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="CarInterface.AirPage" />
+    <RootType FullName="CarInterface.Assets.icons.InCallPage" />
     <RootType FullName="CarInterface.CallPage" />
     <RootType FullName="CarInterface.CarAboutPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
@@ -101,6 +118,7 @@
     <RootType FullName="CarInterface.MainPage" />
     <RootType FullName="CarInterface.MediaPage" />
     <RootType FullName="CarInterface.MusicSettingPage" />
+    <RootType FullName="CarInterface.NavPage" />
     <RootType FullName="CarInterface.PairPage" />
     <RootType FullName="CarInterface.SettingsPage" />
   </Roots.RootTypes>

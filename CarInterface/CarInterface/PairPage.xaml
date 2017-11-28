@@ -17,9 +17,10 @@
         <Rectangle x:Name="recBotSide" Fill="#FF454549" HorizontalAlignment="Left" Height="200" Margin="10,860,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="1890" Grid.ColumnSpan="2"/>
         <Rectangle Fill="#FF7B7BFF" HorizontalAlignment="Left" Height="860" Margin="200,0,0,0" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="1500" Grid.ColumnSpan="2"/>
         <Button x:Name="btCall" Content="Call" HorizontalAlignment="Left" Margin="266,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btCall_Click" FontSize="72"/>
-        <Button x:Name="btAir" Content="Air" HorizontalAlignment="Left" Margin="570,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btAir_Click" FontSize="72"/>
-        <Button x:Name="btMedia" Content="Media" HorizontalAlignment="Left" Margin="1097,705,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btMedia_Click" FontSize="72" Grid.ColumnSpan="2"/>
-        <Button x:Name="btSetting" Content="Settings" HorizontalAlignment="Left" Margin="207.5,705,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btSettings_Click" FontSize="65" Grid.Column="1"/>
+        <Button x:Name="btAir" Content="Air" HorizontalAlignment="Left" Margin="546,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btAir_Click" FontSize="72"/>
+        <Button x:Name="btMedia" Content="Media" HorizontalAlignment="Left" Margin="1123,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btMedia_Click" FontSize="72" Grid.ColumnSpan="2"/>
+        <Button x:Name="btNav" Content="Nav" HorizontalAlignment="Left" Margin="830,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btNav_Click" FontSize="72"/>
+        <Button x:Name="btSetting" Content="Settings" HorizontalAlignment="Left" Margin="233,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btSettings_Click" FontSize="65" Grid.Column="1"/>
         <Button x:Name="btAC" Content="AC" HorizontalAlignment="Left" Margin="10,875,0,0" VerticalAlignment="Top" Background="#FFA6A3B6" Height="112" Width="190" Click="btAC_Click" FontSize="72"/>
         <Ellipse x:Name="ledAC" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="10,875,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Button x:Name="btIntCirc" Content="" HorizontalAlignment="Left" Margin="266,877,0,0" VerticalAlignment="Top" Height="112" Width="190" Click="btIntCirc_Click" FontSize="20">
@@ -82,6 +83,11 @@
         <TextBlock x:Name="lblVolume" HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" Text="Volume" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
         <TextBlock x:Name="lblAir" HorizontalAlignment="Left" Margin="990,935,0,0" TextWrapping="Wrap" Text="Air" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="-0.011,1.865"/>
+        <TextBlock x:Name="lblBluetoothMethod" HorizontalAlignment="Left" Margin="528,65,0,0" TextWrapping="Wrap" Text="Please look at your phone and pair it to Group 32 bluetooth" VerticalAlignment="Top" FontSize="72" Grid.ColumnSpan="2" Height="287" Width="1097"/>
+        <Button x:Name="btYes" Content="Yes" HorizontalAlignment="Left" Height="102" Margin="266,509,0,0" VerticalAlignment="Top" Width="255" Background="#FF54DAD4" FontSize="48" Click="btYes_Click"/>
+        <TextBlock x:Name="lblBluetoothMethod_Copy" HorizontalAlignment="Left" Margin="266,374,0,0" TextWrapping="Wrap" Text="Is Android Samsung S8 you?" VerticalAlignment="Top" FontSize="72"/>
+        <Button x:Name="btNo" Content="No" HorizontalAlignment="Left" Height="102" Margin="570,509,0,0" VerticalAlignment="Top" Width="255" Background="#FF54DAD4" FontSize="48" Click="btNo_Click"/>
+        <Button x:Name="btView" Content="View" HorizontalAlignment="Left" Height="106" Margin="256,65,0,0" VerticalAlignment="Top" Width="240" Background="#FF54DAD4" FontSize="48" Click="btView_Click"/>
 
     </Grid>
 </Page>

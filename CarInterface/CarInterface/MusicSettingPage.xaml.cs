@@ -179,6 +179,67 @@ namespace CarInterface
         {
             this.Frame.Navigate(typeof(SettingsPage));
         }
+        private void btNav_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(NavPage));
+        }
+
+
+
+        private void btBaseUp_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btBassDown_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btUpLeft_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btUp_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btUpRight_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btLeft_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btMid_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btRight_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btDownLeft_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btDown_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btDownRight_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 
 

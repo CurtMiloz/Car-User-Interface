@@ -69,12 +69,6 @@ namespace CarInterface
                 this.dlTune.Amount = stationPos;
             }
 
-
-
-
-
-
-
             private void btFrontDefrost_Click(object sender, RoutedEventArgs e)
             {
                 manager.frontDefrost = helper.swapLed(this.ledFrontDefrost, manager.frontDefrost);
@@ -179,7 +173,57 @@ namespace CarInterface
             {
                 this.Frame.Navigate(typeof(SettingsPage));
             }
+
+        private void btNav_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(NavPage));
         }
+
+
+ 
+
+        private void lblInsideTemp_Copy_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btHeatedLeft_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btFanPos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btHeatedRight_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btLeftUpTouch_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btLeftDownTouch_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btRightUpTouch_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btRightDownTouch_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        
+    }
 
 
     }

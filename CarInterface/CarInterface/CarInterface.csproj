@@ -98,6 +98,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InCallPage.xaml.cs">
+      <DependentUpon>InCallPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CallPage.xaml.cs">
       <DependentUpon>CallPage.xaml</DependentUpon>
     </Compile>
@@ -117,6 +120,9 @@
     <Compile Include="MusicSettingPage.xaml.cs">
       <DependentUpon>MusicSettingPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NavPage.xaml.cs">
+      <DependentUpon>NavPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PairPage.xaml.cs">
       <DependentUpon>PairPage.xaml</DependentUpon>
     </Compile>
@@ -133,12 +139,12 @@
     <None Include="CarInterface_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Down.png" />
     <Content Include="Assets\icons\Down.png" />
     <Content Include="Assets\icons\FrontDefrost.png" />
     <Content Include="Assets\icons\Hazards.png" />
     <Content Include="Assets\icons\heatedSeat.png" />
     <Content Include="Assets\icons\icons8-Back-48.png" />
-    <Content Include="Assets\icons\icons8-Bluetooth 2-48.png" />
     <Content Include="Assets\icons\icons8-Contacts-48.png" />
     <Content Include="Assets\icons\icons8-Driving Filled-50.png" />
     <Content Include="Assets\icons\icons8-Fan-48.png" />
@@ -170,6 +176,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="InCallPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CallPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -191,6 +201,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MusicSettingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NavPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

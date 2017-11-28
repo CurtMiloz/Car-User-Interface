@@ -17,9 +17,10 @@
         <Rectangle x:Name="recBotSide" Fill="#FF454549" HorizontalAlignment="Left" Height="200" Margin="10,860,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="1890" Grid.ColumnSpan="2"/>
         <Rectangle Fill="#FF7B7BFF" HorizontalAlignment="Left" Height="860" Margin="200,0,0,0" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="1500" Grid.ColumnSpan="2"/>
         <Button x:Name="btCall" Content="Call" HorizontalAlignment="Left" Margin="266,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btCall_Click" FontSize="72"/>
-        <Button x:Name="btAir" Content="Air" HorizontalAlignment="Left" Margin="570,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btAir_Click" FontSize="72"/>
-        <Button x:Name="btMedia" Content="Media" HorizontalAlignment="Left" Margin="1097,705,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btMedia_Click" FontSize="72" Grid.ColumnSpan="2"/>
-        <Button x:Name="btSetting" Content="Settings" HorizontalAlignment="Left" Margin="207.5,705,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btSettings_Click" FontSize="65" Grid.Column="1"/>
+        <Button x:Name="btAir" Content="Air" HorizontalAlignment="Left" Margin="546,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btAir_Click" FontSize="72"/>
+        <Button x:Name="btMedia" Content="Media" HorizontalAlignment="Left" Margin="1123,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btMedia_Click" FontSize="72" Grid.ColumnSpan="2"/>
+        <Button x:Name="btNav" Content="Nav" HorizontalAlignment="Left" Margin="830,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btNav_Click" FontSize="72"/>
+        <Button x:Name="btSetting" Content="Settings" HorizontalAlignment="Left" Margin="233,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255" Click="btSettings_Click" FontSize="65" Grid.Column="1"/>
         <Button x:Name="btRadio1" Content="102.1" HorizontalAlignment="Left" Margin="266,22,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="112" Width="255"  Click="btRadio1_Click" FontSize="72"/>
         <Button x:Name="btRadio2" Content="101.1" HorizontalAlignment="Left" Margin="266,155,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="112" Width="255" Click="btRadio2_Click" FontSize="72"/>
         <Button x:Name="btRadio3" Content="97.7" HorizontalAlignment="Left" Margin="266,290,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="112" Width="255" Click="btRadio3_Click" FontSize="72"/>
@@ -107,6 +108,7 @@
         <TextBlock x:Name="lblVolume" HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" Text="Volume" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
         <TextBlock x:Name="lblAir" HorizontalAlignment="Left" Margin="990,935,0,0" TextWrapping="Wrap" Text="Air" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="-0.011,1.865"/>
-
+        <TextBlock x:Name="lblTime" HorizontalAlignment="Left" Margin="207,30,0,0" TextWrapping="Wrap" Text="8:06pm" VerticalAlignment="Top" FontSize="72" Height="94" Width="281" Grid.Column="1"/>
+        
     </Grid>
 </Page>

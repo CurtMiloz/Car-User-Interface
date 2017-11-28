@@ -179,6 +179,16 @@ namespace CarInterface
         {
             this.Frame.Navigate(typeof(SettingsPage));
         }
+
+        private void btNav_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(NavPage));
+        }
+
+        private void btBack_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 
 

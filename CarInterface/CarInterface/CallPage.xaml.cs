@@ -178,7 +178,47 @@ namespace CarInterface
             {
                 this.Frame.Navigate(typeof(SettingsPage));
             }
+
+        private void btNav_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(NavPage));
         }
+
+
+        private void lblClickToCall_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btVoiceCall_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        
+        private void btPerson1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void btPerson2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btPerson3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btPerson4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btPerson5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+    }
 
 
     }

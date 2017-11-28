@@ -179,6 +179,11 @@ namespace CarInterface
 
         }
 
+        private void btNav_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(NavPage));
+        }
+
         private void btPhoneParing_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(PairPage));
@@ -200,6 +205,8 @@ namespace CarInterface
         {
 
         }
+
+        
     }
 
 

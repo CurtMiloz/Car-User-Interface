@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-HOTPTGJ</Machine>
+    <Machine>DESKTOP-PDNGKIV</Machine>
     <WindowsUser>curtm</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>962db3a9-c799-4b2c-98ae-8fb9ace75a5b</PackageIdentityName>
     <PackageIdentityPublisher>CN=curtm</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.exe">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.exe">
       <PackagePath>entrypoint\CarInterface.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curtm\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -370,104 +370,104 @@
     <AppxPackagedFile Include="C:\Users\curtm\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Down.png">
+      <PackagePath>Assets\Down.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down.png">
       <PackagePath>Assets\icons\Down.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\FrontDefrost.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\FrontDefrost.png">
       <PackagePath>Assets\icons\FrontDefrost.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Hazards.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Hazards.png">
       <PackagePath>Assets\icons\Hazards.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\heatedSeat.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\heatedSeat.png">
       <PackagePath>Assets\icons\heatedSeat.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Back-48.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Back-48.png">
       <PackagePath>Assets\icons\icons8-Back-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Bluetooth 2-48.png">
-      <PackagePath>Assets\icons\icons8-Bluetooth 2-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Contacts-48.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Contacts-48.png">
       <PackagePath>Assets\icons\icons8-Contacts-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Driving Filled-50.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Driving Filled-50.png">
       <PackagePath>Assets\icons\icons8-Driving Filled-50.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Fan-48.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Fan-48.png">
       <PackagePath>Assets\icons\icons8-Fan-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Music-48.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Music-48.png">
       <PackagePath>Assets\icons\icons8-Music-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-NFC-48.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-NFC-48.png">
       <PackagePath>Assets\icons\icons8-NFC-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Phone-48.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Phone-48.png">
       <PackagePath>Assets\icons\icons8-Phone-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-SUV-48.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-SUV-48.png">
       <PackagePath>Assets\icons\icons8-SUV-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\InternalCirculate.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\InternalCirculate.png">
       <PackagePath>Assets\icons\InternalCirculate.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Knob.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Knob.png">
       <PackagePath>Assets\icons\Knob.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Microphone.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Microphone.png">
       <PackagePath>Assets\icons\Microphone.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\RearDefrost.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\RearDefrost.png">
       <PackagePath>Assets\icons\RearDefrost.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\tempDown.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\tempDown.png">
       <PackagePath>Assets\icons\tempDown.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\TempUp.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\TempUp.png">
       <PackagePath>Assets\icons\TempUp.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.xr.xml">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.xr.xml">
       <PackagePath>CarInterface.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\CarInterface.exe">
+    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\CarInterface.exe">
       <PackagePath>CarInterface.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
