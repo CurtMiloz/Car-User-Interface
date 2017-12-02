@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T20:01:11.001</Modified>
+      <Modified>2017-12-02T20:48:52.967</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.exe">
       <PackagePath>entrypoint\CarInterface.exe</PackagePath>
-      <Modified>2017-12-02T20:01:10.006</Modified>
+      <Modified>2017-12-02T20:48:52.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Atef\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -499,6 +499,18 @@
       <PackagePath>Assets\Down.png</PackagePath>
       <Modified>2017-11-28T19:30:21.120</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\map.png">
+      <PackagePath>Assets\icons\map.png</PackagePath>
+      <Modified>2017-12-02T20:17:34.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\route-map.png">
+      <PackagePath>Assets\icons\route-map.png</PackagePath>
+      <Modified>2017-12-02T20:17:44.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Right-Arrow.png">
+      <PackagePath>Assets\icons\Up-Right-Arrow.png</PackagePath>
+      <Modified>2017-12-02T20:06:11.233</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Left-Arrow.png">
       <PackagePath>Assets\icons\Up-Left-Arrow.png</PackagePath>
       <Modified>2017-12-02T19:59:15.816</Modified>
@@ -648,11 +660,11 @@
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T20:01:10.650</Modified>
+      <Modified>2017-12-02T20:34:55.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\CarInterface.exe">
       <PackagePath>CarInterface.exe</PackagePath>
-      <Modified>2017-12-02T20:01:10.994</Modified>
+      <Modified>2017-12-02T20:48:52.964</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

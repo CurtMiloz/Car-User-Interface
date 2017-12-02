@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -179,12 +180,16 @@ namespace CarInterface
 
         private void btTouchToSpeak(object sender, RoutedEventArgs e)
         {
-
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/route-map.png"));
+            this.btMap.Background = brush;
         }
 
         private void btCancel_Click(object sender, RoutedEventArgs e)
         {
-
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/map.png"));
+            this.btMap.Background = brush;
         }
     }
 }
