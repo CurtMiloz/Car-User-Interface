@@ -140,8 +140,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Down.png" />
+    <Content Include="Assets\icons\Down-Arrow_clicked.png" />
+    <Content Include="Assets\icons\Down-Left-Arrow_clicked.png" />
+    <Content Include="Assets\icons\Down-Right-Arrow_clicked.png" />
+    <Content Include="Assets\icons\Left-Arrow_clicked.png" />
     <Content Include="Assets\icons\map.png" />
+    <Content Include="Assets\icons\Right-Arrow_clicked.png" />
     <Content Include="Assets\icons\route-map.png" />
+    <Content Include="Assets\icons\Up-Arrow_clicked.png" />
+    <Content Include="Assets\icons\Up-Left-Arrow_clicked.png" />
+    <Content Include="Assets\icons\Up-Right-Arrow_clicked.png" />
     <Content Include="Assets\icons\Up-Right-Arrow.png" />
     <Content Include="Assets\icons\Up-Left-Arrow.png" />
     <Content Include="Assets\icons\Down-Right-Arrow.png" />

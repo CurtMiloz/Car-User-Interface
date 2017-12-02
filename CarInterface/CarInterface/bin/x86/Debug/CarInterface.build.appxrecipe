@@ -373,11 +373,35 @@
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\Down.png">
       <PackagePath>Assets\Down.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Arrow_clicked.png">
+      <PackagePath>Assets\icons\Down-Arrow_clicked.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Left-Arrow_clicked.png">
+      <PackagePath>Assets\icons\Down-Left-Arrow_clicked.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Right-Arrow_clicked.png">
+      <PackagePath>Assets\icons\Down-Right-Arrow_clicked.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Left-Arrow_clicked.png">
+      <PackagePath>Assets\icons\Left-Arrow_clicked.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\map.png">
       <PackagePath>Assets\icons\map.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Right-Arrow_clicked.png">
+      <PackagePath>Assets\icons\Right-Arrow_clicked.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\route-map.png">
       <PackagePath>Assets\icons\route-map.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Arrow_clicked.png">
+      <PackagePath>Assets\icons\Up-Arrow_clicked.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Left-Arrow_clicked.png">
+      <PackagePath>Assets\icons\Up-Left-Arrow_clicked.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Right-Arrow_clicked.png">
+      <PackagePath>Assets\icons\Up-Right-Arrow_clicked.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Right-Arrow.png">
       <PackagePath>Assets\icons\Up-Right-Arrow.png</PackagePath>
