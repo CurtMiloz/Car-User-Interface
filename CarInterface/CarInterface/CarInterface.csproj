@@ -140,6 +140,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Down.png" />
+    <Content Include="Assets\icons\Up-Left-Arrow.png" />
+    <Content Include="Assets\icons\Down-Right-Arrow.png" />
+    <Content Include="Assets\icons\Down-Left-Arrow.png" />
     <Content Include="Assets\icons\Down.png" />
     <Content Include="Assets\icons\FrontDefrost.png" />
     <Content Include="Assets\icons\Hazards.png" />
@@ -154,8 +157,12 @@
     <Content Include="Assets\icons\icons8-SUV-48.png" />
     <Content Include="Assets\icons\InternalCirculate.png" />
     <Content Include="Assets\icons\Knob.png" />
+    <Content Include="Assets\icons\Down-Arrow.png" />
+    <Content Include="Assets\icons\Up-Arrow.png" />
     <Content Include="Assets\icons\Microphone.png" />
     <Content Include="Assets\icons\RearDefrost.png" />
+    <Content Include="Assets\icons\Left-Arrow.png" />
+    <Content Include="Assets\icons\Right-Arrow.png" />
     <Content Include="Assets\icons\tempDown.png" />
     <Content Include="Assets\icons\TempUp.png" />
     <Content Include="Properties\Default.rd.xml" />
