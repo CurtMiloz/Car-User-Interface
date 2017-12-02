@@ -88,7 +88,7 @@
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/map.png"/>
             </Button.Background>
         </Button>
-        <TextBlock x:ConnectionId='31' x:Name="txtNav" HorizontalAlignment="Left" Margin="704,18,0,0" TextWrapping="Wrap" Text="Navigating to:" VerticalAlignment="Top" FontSize="72"/>
+        <TextBlock x:ConnectionId='31' x:Name="txtNav" HorizontalAlignment="Left" Margin="704,18,0,0" TextWrapping="Wrap" Text="Navigating to:" VerticalAlignment="Top" FontSize="72"                                           />
         <Button x:ConnectionId='32' x:Name="btSpeakToNav" Content="" HorizontalAlignment="Left" Margin="297,370,0,0" VerticalAlignment="Top" Height="142" Width="133"                        FontSize="72">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Microphone.png"/>
