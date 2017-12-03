@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CarInterface.Assets.icons;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -192,31 +193,34 @@ namespace CarInterface
 
         private void btVoiceCall_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(InCallPage), "Kevin Bacon");
         }
         
         private void btPerson1_Click(object sender, RoutedEventArgs e)
         {
+            this.Frame.Navigate(typeof(InCallPage), "person 1");
+            
+
 
         }
         private void btPerson2_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(InCallPage), "person 2");
         }
 
         private void btPerson3_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(InCallPage), "person 3");
         }
 
         private void btPerson4_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(InCallPage), "person 4");
         }
 
         private void btPerson5_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(InCallPage), "person 5");
         }
     }
 

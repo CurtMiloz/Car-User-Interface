@@ -105,6 +105,7 @@ namespace CarInterface
 
             if (airRight < 40) { airRight = airRight + 1; }
             Helper.MessageBoxAsync(airRight.ToString(), "Right Side Temperature");
+            
         }
 
         public void rightTempDown()

@@ -73,13 +73,13 @@
         <Ellipse x:ConnectionId='22' x:Name="ledIntCirc" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="266,877,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Ellipse x:ConnectionId='23' x:Name="ledHazard" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="10,626,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Grid x:ConnectionId='24' ManipulationMode="All"                                            >
-            <local1:Dial x:ConnectionId='50' x:Name="dlVolume" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
+            <local1:Dial x:ConnectionId='52' x:Name="dlVolume" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid x:ConnectionId='25' ManipulationMode="All"                                          >
-            <local1:Dial x:ConnectionId='49' x:Name="dlTune" HorizontalAlignment="Left" Margin="1726,20,-694,0" VerticalAlignment="Top"/>
+            <local1:Dial x:ConnectionId='51' x:Name="dlTune" HorizontalAlignment="Left" Margin="1726,20,-694,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid x:ConnectionId='26' ManipulationMode="All"                                         >
-            <local1:Dial x:ConnectionId='48' x:Name="dlAir" HorizontalAlignment="Left" Margin="929,865,0,0" VerticalAlignment="Top"/>
+            <local1:Dial x:ConnectionId='50' x:Name="dlAir" HorizontalAlignment="Left" Margin="929,865,0,0" VerticalAlignment="Top"/>
         </Grid>
         <TextBlock x:ConnectionId='27' x:Name="lblVolume" HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" Text="Volume" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:ConnectionId='28' x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
@@ -88,7 +88,7 @@
         <Button x:ConnectionId='30' x:Name="btMuteCall" Content="Mute" HorizontalAlignment="Left" Margin="297,287,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="90" Width="201"                           FontSize="48"/>
         <Button x:ConnectionId='31' x:Name="btHold" Content="Hold" HorizontalAlignment="Left" Margin="297,403,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="90" Width="201"                       FontSize="48"/>
         <Button x:ConnectionId='32' x:Name="btEnd" Content="End" HorizontalAlignment="Left" Margin="297,547,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="121" Width="283"                      FontSize="48"/>
-        <TextBlock x:ConnectionId='33' x:Name="lblContact" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="111" Margin="297,34,0,0" TextWrapping="Wrap" Text="Kevin Bacon" VerticalAlignment="Top" Width="947" FontSize="72"/>
+        <TextBlock x:ConnectionId='33' x:Name="lblContact" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="111" Margin="297,34,0,0" TextWrapping="Wrap" Text="Kevin Bacon" VerticalAlignment="Top" Width="947" FontSize="72"                                               />
         <TextBlock x:ConnectionId='34' x:Name="lblTime" HorizontalAlignment="Left" Margin="208,10,0,0" TextWrapping="Wrap" Text="8:06pm" VerticalAlignment="Top" FontSize="72" Height="94" Width="281" Grid.Column="1"/>
         <Button x:ConnectionId='35' x:Name="bt5" HorizontalAlignment="Left" Margin="1044,201,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                   FontSize="48" Grid.ColumnSpan="2" Content="5"/>
         <Button x:ConnectionId='36' x:Name="bt2" Content="2" HorizontalAlignment="Left" Margin="1044,45,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                   FontSize="48" Grid.ColumnSpan="2"/>
@@ -103,6 +103,8 @@
         <Button x:ConnectionId='45' x:Name="bt0" Content="0" HorizontalAlignment="Left" Margin="1044,523,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                   FontSize="48" Grid.ColumnSpan="2"/>
         <Button x:ConnectionId='46' x:Name="btStar" HorizontalAlignment="Left" Margin="872,523,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                      FontSize="48" Content="*"/>
         <TextBlock x:ConnectionId='47' x:Name="lblNumbers" HorizontalAlignment="Left" Margin="297,152,0,0" TextWrapping="Wrap" Text="123#" VerticalAlignment="Top" FontSize="36" RenderTransformOrigin="0.456,0.312"/>
+        <Ellipse x:ConnectionId='48' x:Name="ledHold" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="297,403,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44" RenderTransformOrigin="0.53,0.544"/>
+        <Ellipse x:ConnectionId='49' x:Name="ledMute" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="297,287,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
 
     </Grid>
 </Page>

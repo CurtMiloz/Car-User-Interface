@@ -26,6 +26,8 @@ namespace CarInterface.Assets.icons
         Helper helper;
         Manager manager;
         bool setRadStation = false;
+        bool hold = false;
+        bool mute = false; 
         public InCallPage()
         {
             this.InitializeComponent();
@@ -43,6 +45,8 @@ namespace CarInterface.Assets.icons
             helper.setLed(this.ledFrontDefrost, manager.frontDefrost);
             helper.setLed(this.ledIntCirc, manager.intCirc);
             helper.setLed(this.ledHazard, manager.hazards);
+            helper.setLed(this.ledHold, hold);
+            helper.setLed(this.ledMute, mute);
             if (manager.getRadioButton())
             {
                 this.btMedia.Content = "Radio";
@@ -51,7 +55,20 @@ namespace CarInterface.Assets.icons
             {
                 this.btMedia.Content = "Media";
             }
+
+       
+
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            string text = e.Parameter as string;
+            if (text != null)
+            {
+                lblContact.Text = text;
+            }
+        }
+
 
         private void setStation(int stationPos)
         {
@@ -182,6 +199,7 @@ namespace CarInterface.Assets.icons
         private void btNav_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(NavPage));
+            
         }
 
 
@@ -189,16 +207,19 @@ namespace CarInterface.Assets.icons
         private void btMuteCall_Click(object sender, RoutedEventArgs e)
         {
 
+            helper.swapLed(this.ledMute, mute);
+            mute = !mute;
         }
 
         private void btHold_Click(object sender, RoutedEventArgs e)
         {
-
+            helper.swapLed(this.ledHold, hold);
+            hold = !hold;
         }
 
         private void btEnd_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(CallPage));
         }
 
         private void bt1_Click(object sender, RoutedEventArgs e)
@@ -257,6 +278,11 @@ namespace CarInterface.Assets.icons
         }
 
         private void btPound_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void lblContact_SelectionChanged(object sender, RoutedEventArgs e)
         {
 
         }

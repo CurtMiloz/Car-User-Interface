@@ -25729,20 +25729,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\curtm\\.nuget\\packages\\": {}
+    "C:\\Users\\MSBLH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\curtm\\Desktop\\Car-User-Interface\\CarInterface\\CarInterface\\CarInterface.csproj",
+      "projectUniqueName": "C:\\Users\\MSBLH\\Documents\\GitHub\\Car-User-Interface\\CarInterface\\CarInterface\\CarInterface.csproj",
       "projectName": "CarInterface",
-      "projectPath": "D:\\curtm\\Desktop\\Car-User-Interface\\CarInterface\\CarInterface\\CarInterface.csproj",
-      "packagesPath": "C:\\Users\\curtm\\.nuget\\packages\\",
-      "outputPath": "D:\\curtm\\Desktop\\Car-User-Interface\\CarInterface\\CarInterface\\obj\\",
+      "projectPath": "C:\\Users\\MSBLH\\Documents\\GitHub\\Car-User-Interface\\CarInterface\\CarInterface\\CarInterface.csproj",
+      "packagesPath": "C:\\Users\\MSBLH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\MSBLH\\Documents\\GitHub\\Car-User-Interface\\CarInterface\\CarInterface\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\curtm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MSBLH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

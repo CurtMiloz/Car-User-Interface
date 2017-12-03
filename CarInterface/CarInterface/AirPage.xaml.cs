@@ -27,6 +27,8 @@ namespace CarInterface
             Helper helper;
             Manager manager;
             bool setRadStation = false;
+            bool leftSeatHeater = false;
+            bool rightSeatHeater = false;
             public AirPage()
             {
                 this.InitializeComponent();
@@ -44,7 +46,9 @@ namespace CarInterface
                 helper.setLed(this.ledFrontDefrost, manager.frontDefrost);
                 helper.setLed(this.ledIntCirc, manager.intCirc);
                 helper.setLed(this.ledHazard, manager.hazards);
-                if (manager.getRadioButton())
+                helper.setLed(this.ledLeftSeatHeater, leftSeatHeater);
+                helper.setLed(this.ledRightSeatHeater, rightSeatHeater);
+            if (manager.getRadioButton())
                 {
                     this.btMedia.Content = "Radio";
                 }
@@ -189,7 +193,8 @@ namespace CarInterface
 
         private void btHeatedLeft_Click(object sender, RoutedEventArgs e)
         {
-
+            helper.swapLed(this.ledLeftSeatHeater, leftSeatHeater);
+            leftSeatHeater = !leftSeatHeater;
         }
 
         private void btFanPos_Click(object sender, RoutedEventArgs e)
@@ -200,26 +205,43 @@ namespace CarInterface
         private void btHeatedRight_Click(object sender, RoutedEventArgs e)
         {
 
+            helper.swapLed(this.ledRightSeatHeater, rightSeatHeater);
+            rightSeatHeater = !rightSeatHeater;
         }
 
         private void btLeftUpTouch_Click(object sender, RoutedEventArgs e)
         {
-
+            if (manager.airLeft < 28)
+            {
+                manager.airLeft = manager.airLeft - 1;
+                lblLeftSideTemp.Text = "Right Set Temp: " + manager.airLeft.ToString() + "°C";
+            }
         }
 
         private void btLeftDownTouch_Click(object sender, RoutedEventArgs e)
         {
-
+            if (manager.airLeft > 18)
+            {
+                manager.airLeft = manager.airLeft - 1;
+                lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
+            }
         }
 
         private void btRightUpTouch_Click(object sender, RoutedEventArgs e)
         {
-
+            if (manager.airRight < 28)
+            {
+                manager.airRight = manager.airRight + 1;
+                lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
+            }
         }
 
         private void btRightDownTouch_Click(object sender, RoutedEventArgs e)
         {
-
+            if (manager.airRight > 18) { 
+                manager.airRight = manager.airRight - 1;
+                lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
+            }
         }
 
         

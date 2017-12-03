@@ -82,12 +82,9 @@
         <TextBlock x:Name="lblVolume" HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" Text="Volume" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
         <TextBlock x:Name="lblAir" HorizontalAlignment="Left" Margin="990,935,0,0" TextWrapping="Wrap" Text="Air" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="-0.011,1.865"/>
-        <TextBlock x:Name="lblInsideTemp" HorizontalAlignment="Left" Margin="682,541,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Height="101" Width="588" Grid.ColumnSpan="2">
-            <Run Text="Actual "/>
-            <Run Text="Temp: 20C"/>
-        </TextBlock>
-        <TextBlock x:Name="lblLeftSideTemp" Margin="205,0,382,0" TextWrapping="Wrap" Text="Left Set Temp: 16C " VerticalAlignment="Top" FontSize="72" Height="94" SelectionChanged="lblInsideTemp_Copy_SelectionChanged"/>
-        <TextBlock x:Name="lblRightSideTemp" HorizontalAlignment="Left" Margin="1050,0,0,0" TextWrapping="Wrap" Text="Right Set Temp: 16C " VerticalAlignment="Top" FontSize="72" Height="94" Width="650" SelectionChanged="lblInsideTemp_Copy_SelectionChanged" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="lblInsideTemp" HorizontalAlignment="Left" Margin="682,541,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Height="101" Width="588" Grid.ColumnSpan="2" Text="Actual Temp: 20°C"/>
+        <TextBlock x:Name="lblLeftSideTemp" Margin="205,0,348,0" TextWrapping="Wrap" Text="Left Set Temp: 20°C " VerticalAlignment="Top" FontSize="72" Height="94" SelectionChanged="lblInsideTemp_Copy_SelectionChanged"/>
+        <TextBlock x:Name="lblRightSideTemp" HorizontalAlignment="Left" Margin="1018,0,0,0" TextWrapping="Wrap" Text="Right Set Temp: 20°C " VerticalAlignment="Top" FontSize="72" Height="94" Width="682" SelectionChanged="lblInsideTemp_Copy_SelectionChanged" Grid.ColumnSpan="2"/>
         <Button x:Name="btHeatedLeft" Content="" HorizontalAlignment="Left" Margin="400,240,0,0" VerticalAlignment="Top" Height="260" Width="296"  Click="btHeatedLeft_Click" FontSize="72">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/heatedSeat.png"/>
@@ -125,10 +122,11 @@
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/icons8-Back-48.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btHeatedRight" Content="" HorizontalAlignment="Left" Margin="33,240,0,0" VerticalAlignment="Top" Height="260" Width="296"  Click="btHeatedRight_Click" FontSize="72" Grid.Column="1">
+        <Button x:Name="btHeatedRight" HorizontalAlignment="Left" Margin="33,240,0,0" VerticalAlignment="Top" Height="260" Width="296"  Click="btHeatedRight_Click" FontSize="72" Grid.Column="1">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/heatedSeat.png"/>
             </Button.Background>
+            <Ellipse x:Name="ledRightSeatHeater" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="-147,-131,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         </Button>
         <Button x:Name="btLeftDownTouch" Click ="btLeftDownTouch_Click" Content="" HorizontalAlignment="Left" Margin="219,543.5,0,0" VerticalAlignment="Top" Height="170" Width="139" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.RenderTransform>
@@ -154,6 +152,7 @@
         <Rectangle x:Name="recLeftLevel" Fill="Black" HorizontalAlignment="Left" Height="28" Margin="229,541,0,0" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="117"/>
         <Rectangle x:Name="recRightLevel" Fill="Black" HorizontalAlignment="Left" Height="28" Margin="370,541,0,0" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="117" Grid.Column="1"/>
         <TextBlock x:Name="lblTime" HorizontalAlignment="Left" Margin="783,131,0,0" TextWrapping="Wrap" Text="8:06pm" VerticalAlignment="Top" FontSize="72" Height="94" Width="487" Grid.ColumnSpan="2"/>
+        <Ellipse x:Name="ledLeftSeatHeater" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="400,240,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
 
     </Grid>
 </Page>
