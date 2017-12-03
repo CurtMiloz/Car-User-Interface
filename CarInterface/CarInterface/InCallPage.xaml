@@ -102,7 +102,7 @@
         <Button x:Name="btPound" Content="#" HorizontalAlignment="Left" Margin="37,523,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148" Click="btPound_Click" FontSize="48" Grid.Column="1"/>
         <Button x:Name="bt0" Content="0" HorizontalAlignment="Left" Margin="1044,523,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148" Click="bt0_Click" FontSize="48" Grid.ColumnSpan="2"/>
         <Button x:Name="btStar" HorizontalAlignment="Left" Margin="872,523,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148" Click="btStar_Click" FontSize="48" Content="*"/>
-        <TextBlock x:Name="lblNumbers" HorizontalAlignment="Left" Margin="297,152,0,0" TextWrapping="Wrap" Text="123#" VerticalAlignment="Top" FontSize="36" RenderTransformOrigin="0.456,0.312"/>
+        <TextBlock x:Name="lblNumbers" HorizontalAlignment="Left" Margin="297,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="36" RenderTransformOrigin="0.456,0.312" SelectionChanged="lblNumbers_SelectionChanged"/>
         <Ellipse x:Name="ledHold" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="297,403,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44" RenderTransformOrigin="0.53,0.544"/>
         <Ellipse x:Name="ledMute" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="297,287,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
 

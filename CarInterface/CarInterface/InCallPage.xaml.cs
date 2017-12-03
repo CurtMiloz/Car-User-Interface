@@ -56,7 +56,7 @@ namespace CarInterface.Assets.icons
                 this.btMedia.Content = "Media";
             }
 
-       
+           
 
         }
 
@@ -224,65 +224,70 @@ namespace CarInterface.Assets.icons
 
         private void bt1_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "1";
         }
 
         private void bt4_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "4";
         }
 
         private void bt2_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "2";
         }
 
         private void bt3_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "3";
         }
 
         private void bt5_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "5";
         }
 
         private void bt6_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "6";
         }
 
         private void bt7_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "7";
         }
 
         private void bt8_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "8";
         }
 
         private void bt9_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "9";
         }
 
         private void btStar_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "*";
         }
 
         private void bt0_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "0";
         }
 
         private void btPound_Click(object sender, RoutedEventArgs e)
         {
-
+            lblNumbers.Text = lblNumbers.Text + "#";
         }
 
         private void lblContact_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void lblNumbers_SelectionChanged(object sender, RoutedEventArgs e)
         {
 
         }

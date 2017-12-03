@@ -1,5 +1,6 @@
 WinMetadata\Windows.winmd
 Assets\Down.png
+Assets\icons\Down and up.png
 Assets\icons\Down.png
 Assets\icons\Down-Arrow.png
 Assets\icons\Down-Arrow_clicked.png
@@ -30,6 +31,7 @@ Assets\icons\Right-Arrow_clicked.png
 Assets\icons\route-map.png
 Assets\icons\tempDown.png
 Assets\icons\TempUp.png
+Assets\icons\up.png
 Assets\icons\Up-Arrow.png
 Assets\icons\Up-Arrow_clicked.png
 Assets\icons\Up-Left-Arrow.png

@@ -29,6 +29,7 @@ namespace CarInterface
             bool setRadStation = false;
             bool leftSeatHeater = false;
             bool rightSeatHeater = false;
+            int directionCounter = 1;
             public AirPage()
             {
                 this.InitializeComponent();
@@ -200,6 +201,19 @@ namespace CarInterface
         private void btFanPos_Click(object sender, RoutedEventArgs e)
         {
 
+           // directionCounter += 1;
+            if(directionCounter%3 == 1)
+            {
+                
+            }
+            if(directionCounter %3 == 2)
+            {
+
+            }
+            else
+            {
+
+            }
         }
 
         private void btHeatedRight_Click(object sender, RoutedEventArgs e)
@@ -213,7 +227,7 @@ namespace CarInterface
         {
             if (manager.airLeft < 28)
             {
-                manager.airLeft = manager.airLeft - 1;
+                manager.leftTempUp();
                 lblLeftSideTemp.Text = "Right Set Temp: " + manager.airLeft.ToString() + "°C";
             }
         }
@@ -222,7 +236,7 @@ namespace CarInterface
         {
             if (manager.airLeft > 18)
             {
-                manager.airLeft = manager.airLeft - 1;
+                manager.leftTempDown();
                 lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
             }
         }
@@ -231,20 +245,20 @@ namespace CarInterface
         {
             if (manager.airRight < 28)
             {
-                manager.airRight = manager.airRight + 1;
+                manager.rightTempUp();
                 lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
             }
         }
 
         private void btRightDownTouch_Click(object sender, RoutedEventArgs e)
         {
-            if (manager.airRight > 18) { 
-                manager.airRight = manager.airRight - 1;
+            if (manager.airRight > 18) {
+                manager.rightTempDown();
                 lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
             }
         }
 
-        
+       
     }
 
 

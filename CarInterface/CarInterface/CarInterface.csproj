@@ -140,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Down.png" />
+    <Content Include="Assets\icons\Down and up.png" />
     <Content Include="Assets\icons\Down-Arrow_clicked.png" />
     <Content Include="Assets\icons\Down-Left-Arrow_clicked.png" />
     <Content Include="Assets\icons\Down-Right-Arrow_clicked.png" />
@@ -176,6 +177,7 @@
     <Content Include="Assets\icons\Right-Arrow.png" />
     <Content Include="Assets\icons\tempDown.png" />
     <Content Include="Assets\icons\TempUp.png" />
+    <Content Include="Assets\icons\up.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
