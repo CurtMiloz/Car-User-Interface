@@ -29,6 +29,7 @@ namespace CarInterface
         Helper helper;
         Manager manager;
         bool setRadStation = false;
+        int bass = 0;
         public MusicSettingPage()
         {
             this.InitializeComponent();
@@ -36,6 +37,8 @@ namespace CarInterface
             Manager.manager = new Manager();
 
             this.helper = new Helper();
+
+            this.lblBass.Text = this.bass.ToString();
 
             manager = Manager.manager;
             this.dlTune.Angle = (360 * (manager.currentStation / 6.0));
@@ -190,12 +193,20 @@ namespace CarInterface
 
         private void btBaseUp_Click(object sender, RoutedEventArgs e)
         {
-
+            if (this.bass < 10)
+            {
+                this.bass += 1;
+                this.lblBass.Text = this.bass.ToString();
+            }
         }
 
         private void btBassDown_Click(object sender, RoutedEventArgs e)
         {
-
+            if (this.bass > -10)
+            {
+                this.bass -= 1;
+                this.lblBass.Text = this.bass.ToString();
+            }
         }
 
         private void btUpLeft_Click(object sender, RoutedEventArgs e)

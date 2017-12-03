@@ -120,7 +120,7 @@
             </Button.Background>
         </Button>
         <TextBlock x:Name="lblFade" HorizontalAlignment="Left" Margin="990,32,0,0" TextWrapping="Wrap" Text="Fade" VerticalAlignment="Top" FontSize="72"/>
-        <TextBlock x:Name="lblBase" HorizontalAlignment="Left" Margin="352,363,0,0" TextWrapping="Wrap" Text="Base" VerticalAlignment="Top" FontSize="72"/>
+        <TextBlock x:Name="lblBase" HorizontalAlignment="Left" Margin="354,313,0,0" TextWrapping="Wrap" Text="Base" VerticalAlignment="Top" FontSize="72" RenderTransformOrigin="0.534,-0.469"/>
         <Button x:Name="btBassDown" Content="" HorizontalAlignment="Left" Margin="352,509,0,0" VerticalAlignment="Top" Height="146" Width="148" Click="btBassDown_Click" FontSize="48">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Down-Arrow.png"/>
@@ -137,6 +137,7 @@
             </Button.Background>
         </Button>
         <TextBlock x:Name="lblTime" HorizontalAlignment="Left" Margin="207,30,0,0" TextWrapping="Wrap" Text="8:06pm" VerticalAlignment="Top" FontSize="72" Height="94" Width="281" Grid.Column="1"/>
+        <TextBlock x:Name="lblBass" HorizontalAlignment="Left" Margin="354,414,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="71" Width="146" RenderTransformOrigin="-0.15,0.451" FontSize="48" TextAlignment="Center"/>
 
     </Grid>
 </Page>

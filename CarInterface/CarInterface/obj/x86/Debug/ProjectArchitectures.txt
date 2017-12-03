@@ -1,1 +1,1 @@
-C:\Users\MSBLH\Documents\GitHub\Car-User-Interface\CarInterface\CarInterface\CarInterface.csproj;x86
+C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\CarInterface.csproj;x86
