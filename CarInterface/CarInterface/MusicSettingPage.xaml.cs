@@ -5,12 +5,14 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -198,49 +200,317 @@ namespace CarInterface
 
         private void btUpLeft_Click(object sender, RoutedEventArgs e)
         {
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Left-Arrow_clicked.png"));
+            this.btUpLeft.Background = brush;
 
+            var brush1 = new ImageBrush();
+            brush1.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Arrow.png"));
+            this.btUp.Background = brush1;
+
+            var brush2 = new ImageBrush();
+            brush2.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Right-Arrow.png"));
+            this.btUpRight.Background = brush2;
+
+            var brush3 = new ImageBrush();
+            brush3.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Right-Arrow.png"));
+            this.btRight.Background = brush3;
+
+            var brush4 = new ImageBrush();
+            brush4.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Left-Arrow.png"));
+            this.btLeft.Background = brush4;
+
+            var brush5 = new ImageBrush();
+            brush5.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Left-Arrow.png"));
+            this.btDownLeft.Background = brush5;
+
+            var brush6 = new ImageBrush();
+            brush6.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Arrow.png"));
+            this.btDown.Background = brush6;
+
+            var brush7 = new ImageBrush();
+            brush7.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Right-Arrow.png"));
+            this.btDownRight.Background = brush7;
         }
 
         private void btUp_Click(object sender, RoutedEventArgs e)
         {
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Arrow_clicked.png"));
+            this.btUp.Background = brush;
 
+            var brush1 = new ImageBrush();
+            brush1.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Left-Arrow.png"));
+            this.btUpLeft.Background = brush1;
+
+            var brush2 = new ImageBrush();
+            brush2.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Right-Arrow.png"));
+            this.btUpRight.Background = brush2;
+
+            var brush3 = new ImageBrush();
+            brush3.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Right-Arrow.png"));
+            this.btRight.Background = brush3;
+
+            var brush4 = new ImageBrush();
+            brush4.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Left-Arrow.png"));
+            this.btLeft.Background = brush4;
+
+            var brush5 = new ImageBrush();
+            brush5.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Left-Arrow.png"));
+            this.btDownLeft.Background = brush5;
+
+            var brush6 = new ImageBrush();
+            brush6.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Arrow.png"));
+            this.btDown.Background = brush6;
+
+            var brush7 = new ImageBrush();
+            brush7.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Right-Arrow.png"));
+            this.btDownRight.Background = brush7;
         }
 
         private void btUpRight_Click(object sender, RoutedEventArgs e)
         {
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Right-Arrow_clicked.png"));
+            this.btUpRight.Background = brush;
 
+            var brush1 = new ImageBrush();
+            brush1.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Left-Arrow.png"));
+            this.btUpLeft.Background = brush1;
+
+            var brush2 = new ImageBrush();
+            brush2.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Arrow.png"));
+            this.btUp.Background = brush2;
+
+            var brush3 = new ImageBrush();
+            brush3.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Right-Arrow.png"));
+            this.btRight.Background = brush3;
+
+            var brush4 = new ImageBrush();
+            brush4.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Left-Arrow.png"));
+            this.btLeft.Background = brush4;
+
+            var brush5 = new ImageBrush();
+            brush5.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Left-Arrow.png"));
+            this.btDownLeft.Background = brush5;
+
+            var brush6 = new ImageBrush();
+            brush6.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Arrow.png"));
+            this.btDown.Background = brush6;
+
+            var brush7 = new ImageBrush();
+            brush7.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Right-Arrow.png"));
+            this.btDownRight.Background = brush7;
         }
 
         private void btLeft_Click(object sender, RoutedEventArgs e)
         {
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Left-Arrow_clicked.png"));
+            this.btLeft.Background = brush;
 
+            var brush1 = new ImageBrush();
+            brush1.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Left-Arrow.png"));
+            this.btUpLeft.Background = brush1;
+
+            var brush2 = new ImageBrush();
+            brush2.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Arrow.png"));
+            this.btUp.Background = brush2;
+
+            var brush3 = new ImageBrush();
+            brush3.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Right-Arrow.png"));
+            this.btRight.Background = brush3;
+
+            var brush4 = new ImageBrush();
+            brush4.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Right-Arrow.png"));
+            this.btUpRight.Background = brush4;
+
+            var brush5 = new ImageBrush();
+            brush5.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Left-Arrow.png"));
+            this.btDownLeft.Background = brush5;
+
+            var brush6 = new ImageBrush();
+            brush6.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Arrow.png"));
+            this.btDown.Background = brush6;
+
+            var brush7 = new ImageBrush();
+            brush7.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Right-Arrow.png"));
+            this.btDownRight.Background = brush7;
         }
 
         private void btMid_Click(object sender, RoutedEventArgs e)
         {
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Left-Arrow.png"));
+            this.btLeft.Background = brush;
 
+            var brush1 = new ImageBrush();
+            brush1.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Left-Arrow.png"));
+            this.btUpLeft.Background = brush1;
+
+            var brush2 = new ImageBrush();
+            brush2.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Arrow.png"));
+            this.btUp.Background = brush2;
+
+            var brush3 = new ImageBrush();
+            brush3.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Right-Arrow.png"));
+            this.btRight.Background = brush3;
+
+            var brush4 = new ImageBrush();
+            brush4.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Right-Arrow.png"));
+            this.btUpRight.Background = brush4;
+
+            var brush5 = new ImageBrush();
+            brush5.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Left-Arrow.png"));
+            this.btDownLeft.Background = brush5;
+
+            var brush6 = new ImageBrush();
+            brush6.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Arrow.png"));
+            this.btDown.Background = brush6;
+
+            var brush7 = new ImageBrush();
+            brush7.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Right-Arrow.png"));
+            this.btDownRight.Background = brush7;
         }
 
         private void btRight_Click(object sender, RoutedEventArgs e)
         {
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Right-Arrow_clicked.png"));
+            this.btRight.Background = brush;
 
+            var brush1 = new ImageBrush();
+            brush1.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Left-Arrow.png"));
+            this.btUpLeft.Background = brush1;
+
+            var brush2 = new ImageBrush();
+            brush2.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Arrow.png"));
+            this.btUp.Background = brush2;
+
+            var brush3 = new ImageBrush();
+            brush3.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Left-Arrow.png"));
+            this.btLeft.Background = brush3;
+
+            var brush4 = new ImageBrush();
+            brush4.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Right-Arrow.png"));
+            this.btUpRight.Background = brush4;
+
+            var brush5 = new ImageBrush();
+            brush5.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Left-Arrow.png"));
+            this.btDownLeft.Background = brush5;
+
+            var brush6 = new ImageBrush();
+            brush6.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Arrow.png"));
+            this.btDown.Background = brush6;
+
+            var brush7 = new ImageBrush();
+            brush7.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Right-Arrow.png"));
+            this.btDownRight.Background = brush7;
         }
 
         private void btDownLeft_Click(object sender, RoutedEventArgs e)
         {
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Left-Arrow_clicked.png"));
+            this.btDownLeft.Background = brush;
 
+            var brush1 = new ImageBrush();
+            brush1.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Left-Arrow.png"));
+            this.btUpLeft.Background = brush1;
+
+            var brush2 = new ImageBrush();
+            brush2.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Arrow.png"));
+            this.btUp.Background = brush2;
+
+            var brush3 = new ImageBrush();
+            brush3.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Left-Arrow.png"));
+            this.btLeft.Background = brush3;
+
+            var brush4 = new ImageBrush();
+            brush4.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Right-Arrow.png"));
+            this.btUpRight.Background = brush4;
+
+            var brush5 = new ImageBrush();
+            brush5.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Right-Arrow.png"));
+            this.btRight.Background = brush5;
+
+            var brush6 = new ImageBrush();
+            brush6.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Arrow.png"));
+            this.btDown.Background = brush6;
+
+            var brush7 = new ImageBrush();
+            brush7.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Right-Arrow.png"));
+            this.btDownRight.Background = brush7;
         }
 
         private void btDown_Click(object sender, RoutedEventArgs e)
         {
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Arrow_clicked.png"));
+            this.btDown.Background = brush;
 
+            var brush1 = new ImageBrush();
+            brush1.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Left-Arrow.png"));
+            this.btUpLeft.Background = brush1;
+
+            var brush2 = new ImageBrush();
+            brush2.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Arrow.png"));
+            this.btUp.Background = brush2;
+
+            var brush3 = new ImageBrush();
+            brush3.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Left-Arrow.png"));
+            this.btLeft.Background = brush3;
+
+            var brush4 = new ImageBrush();
+            brush4.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Right-Arrow.png"));
+            this.btUpRight.Background = brush4;
+
+            var brush5 = new ImageBrush();
+            brush5.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Right-Arrow.png"));
+            this.btRight.Background = brush5;
+
+            var brush6 = new ImageBrush();
+            brush6.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Left-Arrow.png"));
+            this.btDownLeft.Background = brush6;
+
+            var brush7 = new ImageBrush();
+            brush7.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Right-Arrow.png"));
+            this.btDownRight.Background = brush7;
         }
 
         private void btDownRight_Click(object sender, RoutedEventArgs e)
         {
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Right-Arrow_clicked.png"));
+            this.btDownRight.Background = brush;
 
+            var brush1 = new ImageBrush();
+            brush1.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Left-Arrow.png"));
+            this.btUpLeft.Background = brush1;
+
+            var brush2 = new ImageBrush();
+            brush2.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Arrow.png"));
+            this.btUp.Background = brush2;
+
+            var brush3 = new ImageBrush();
+            brush3.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Left-Arrow.png"));
+            this.btLeft.Background = brush3;
+
+            var brush4 = new ImageBrush();
+            brush4.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Up-Right-Arrow.png"));
+            this.btUpRight.Background = brush4;
+
+            var brush5 = new ImageBrush();
+            brush5.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Right-Arrow.png"));
+            this.btRight.Background = brush5;
+
+            var brush6 = new ImageBrush();
+            brush6.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Left-Arrow.png"));
+            this.btDownLeft.Background = brush6;
+
+            var brush7 = new ImageBrush();
+            brush7.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Arrow.png"));
+            this.btDown.Background = brush7;
         }
     }
-
-
 }

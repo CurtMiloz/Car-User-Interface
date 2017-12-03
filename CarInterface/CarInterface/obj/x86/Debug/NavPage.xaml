@@ -83,9 +83,12 @@
         <TextBlock x:ConnectionId='27' x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
         <TextBlock x:ConnectionId='28' x:Name="lblAir" HorizontalAlignment="Left" Margin="990,935,0,0" TextWrapping="Wrap" Text="Air" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="-0.011,1.865"/>
         <Button x:ConnectionId='29' x:Name="btNav" Content="Nav" HorizontalAlignment="Left" Margin="830,699,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="112" Width="255"                     FontSize="72"/>
-        <Button x:ConnectionId='30' x:Name="btMap" Grid.ColumnSpan="2" Content="Put a map on me" HorizontalAlignment="Left" Height="554" Margin="626,114,0,0" VerticalAlignment="Top" Width="1044" Background="#FF4CCF5E" FontSize="72">
+        <Button x:ConnectionId='30' x:Name="btMap" Grid.ColumnSpan="2" Content="" HorizontalAlignment="Left" Height="554" Margin="626,114,0,0" VerticalAlignment="Top" Width="1044" FontSize="72">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/map.png"/>
+            </Button.Background>
         </Button>
-        <TextBlock x:ConnectionId='31' x:Name="txtNav" HorizontalAlignment="Left" Margin="704,18,0,0" TextWrapping="Wrap" Text="Navigating to:" VerticalAlignment="Top" FontSize="72"/>
+        <TextBlock x:ConnectionId='31' x:Name="txtNav" HorizontalAlignment="Left" Margin="704,18,0,0" TextWrapping="Wrap" Text="Navigating to:" VerticalAlignment="Top" FontSize="72"                                           />
         <Button x:ConnectionId='32' x:Name="btSpeakToNav" Content="" HorizontalAlignment="Left" Margin="297,370,0,0" VerticalAlignment="Top" Height="142" Width="133"                        FontSize="72">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Microphone.png"/>

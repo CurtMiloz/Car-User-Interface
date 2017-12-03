@@ -82,22 +82,60 @@
         <TextBlock x:ConnectionId='27' x:Name="lblVolume" HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" Text="Volume" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:ConnectionId='28' x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
         <TextBlock x:ConnectionId='29' x:Name="lblAir" HorizontalAlignment="Left" Margin="990,935,0,0" TextWrapping="Wrap" Text="Air" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="-0.011,1.865"/>
-        <Button x:ConnectionId='30' x:Name="btMid" HorizontalAlignment="Left" Margin="1155,339,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                     FontSize="48" Grid.ColumnSpan="2"/>
+        <Button x:ConnectionId='30' x:Name="btMid" HorizontalAlignment="Left" Margin="1155,339,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                     FontSize="48" Grid.ColumnSpan="2" Content="Fade"/>
 
-        <Button x:ConnectionId='31' x:Name="btUp" Content="" HorizontalAlignment="Left" Margin="1155,167,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                    FontSize="48" Grid.ColumnSpan="2"/>
-        <Button x:ConnectionId='32' x:Name="btRight" Content="" HorizontalAlignment="Left" Margin="148,339,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                       FontSize="48" Grid.Column="1"/>
-        <Button x:ConnectionId='33' x:Name="btUpRight" Content="" HorizontalAlignment="Left" Margin="148,167,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                         FontSize="48" Grid.Column="1"/>
-        <Button x:ConnectionId='34' x:Name="btDownRight" Content="" HorizontalAlignment="Left" Margin="148,509,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                           FontSize="48" Grid.Column="1"/>
-        <Button x:ConnectionId='35' x:Name="btDown" Content="" HorizontalAlignment="Left" Margin="1155,509,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                      FontSize="48" Grid.ColumnSpan="2"/>
-        <Button x:ConnectionId='36' x:Name="btDownLeft" HorizontalAlignment="Left" Margin="983,509,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                          FontSize="48">
+        <Button x:ConnectionId='31' x:Name="btUp" Content="" HorizontalAlignment="Left" Margin="1155,167,0,0" VerticalAlignment="Top" Height="146" Width="148"                    FontSize="48" Grid.ColumnSpan="2">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Up-Arrow.png"/>
+            </Button.Background>
         </Button>
-        <Button x:ConnectionId='37' x:Name="btUpLeft" HorizontalAlignment="Left" Margin="983,167,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                        FontSize="48">
+        <Button x:ConnectionId='32' x:Name="btRight" Content="" HorizontalAlignment="Left" Margin="148,339,0,0" VerticalAlignment="Top" Height="146" Width="148"                       FontSize="48" Grid.Column="1">
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/icons/Right-Arrow.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='33' x:Name="btUpRight" Content="" HorizontalAlignment="Left" Margin="148,167,0,0" VerticalAlignment="Top" Height="146" Width="148"                         FontSize="48" Grid.Column="1">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Up-Right-Arrow.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='34' x:Name="btDownRight" Content="" HorizontalAlignment="Left" Margin="148,509,0,0" VerticalAlignment="Top" Height="146" Width="148"                           FontSize="48" Grid.Column="1">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Down-Right-Arrow.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='35' x:Name="btDown" Content="" HorizontalAlignment="Left" Margin="1155,509,0,0" VerticalAlignment="Top" Height="146" Width="148"                      FontSize="48" Grid.ColumnSpan="2">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Down-Arrow.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='36' x:Name="btDownLeft" HorizontalAlignment="Left" Margin="983,509,0,0" VerticalAlignment="Top" Height="146" Width="148"                          FontSize="48">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Down-Left-Arrow.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='37' x:Name="btUpLeft" HorizontalAlignment="Left" Margin="983,167,0,0" VerticalAlignment="Top" Height="146" Width="148"                        FontSize="48">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Up-Left-Arrow.png"/>
+            </Button.Background>
         </Button>
         <TextBlock x:ConnectionId='38' x:Name="lblFade" HorizontalAlignment="Left" Margin="990,32,0,0" TextWrapping="Wrap" Text="Fade" VerticalAlignment="Top" FontSize="72"/>
         <TextBlock x:ConnectionId='39' x:Name="lblBase" HorizontalAlignment="Left" Margin="352,363,0,0" TextWrapping="Wrap" Text="Base" VerticalAlignment="Top" FontSize="72"/>
-        <Button x:ConnectionId='40' x:Name="btBassDown" Content="" HorizontalAlignment="Left" Margin="352,509,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                          FontSize="48"/>
-        <Button x:ConnectionId='41' x:Name="btBaseUp" Content="" HorizontalAlignment="Left" Margin="352,167,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146" Width="148"                        FontSize="48"/>
-        <Button x:ConnectionId='42' x:Name="btLeft" HorizontalAlignment="Left" Margin="983,339,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="146"                      FontSize="48" Width="148"/>
+        <Button x:ConnectionId='40' x:Name="btBassDown" Content="" HorizontalAlignment="Left" Margin="352,509,0,0" VerticalAlignment="Top" Height="146" Width="148"                          FontSize="48">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Down-Arrow.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='41' x:Name="btBaseUp" Content="" HorizontalAlignment="Left" Margin="352,167,0,0" VerticalAlignment="Top" Height="146" Width="148"                        FontSize="48">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Up-Arrow.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='42' x:Name="btLeft" HorizontalAlignment="Left" Margin="983,339,0,0" VerticalAlignment="Top" Height="146"                      FontSize="48" Width="148">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Left-Arrow.png"/>
+            </Button.Background>
+        </Button>
         <TextBlock x:ConnectionId='43' x:Name="lblTime" HorizontalAlignment="Left" Margin="207,30,0,0" TextWrapping="Wrap" Text="8:06pm" VerticalAlignment="Top" FontSize="72" Height="94" Width="281" Grid.Column="1"/>
 
     </Grid>
