@@ -87,7 +87,7 @@
         <Button x:Name="btYes" Content="Yes" HorizontalAlignment="Left" Height="102" Margin="266,509,0,0" VerticalAlignment="Top" Width="255" Background="#FF54DAD4" FontSize="48" Click="btYes_Click"/>
         <TextBlock x:Name="lblBluetoothMethod_Copy" HorizontalAlignment="Left" Margin="266,374,0,0" TextWrapping="Wrap" Text="Is Android Samsung S8 you?" VerticalAlignment="Top" FontSize="72"/>
         <Button x:Name="btNo" Content="No" HorizontalAlignment="Left" Height="102" Margin="570,509,0,0" VerticalAlignment="Top" Width="255" Background="#FF54DAD4" FontSize="48" Click="btNo_Click"/>
-        <Button x:Name="btView" Content="View" HorizontalAlignment="Left" Height="106" Margin="256,65,0,0" VerticalAlignment="Top" Width="240" Background="#FF54DAD4" FontSize="48" Click="btView_Click"/>
+        <Button x:Name="btBack" Content="Back" HorizontalAlignment="Left" Height="106" Margin="256,65,0,0" VerticalAlignment="Top" Width="240" Background="#FF54DAD4" FontSize="48" Click="btView_Click"/>
 
     </Grid>
 </Page>
