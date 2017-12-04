@@ -27,7 +27,11 @@ namespace CarInterface
         {
             this.InitializeComponent();
             this.helper = new Helper();
-            Manager.manager = new Manager();
+
+            if (Manager.manager == null) {
+                Manager.manager = new Manager();
+            }
+            
 
             this.helper = new Helper();
 
@@ -40,14 +44,8 @@ namespace CarInterface
             helper.setLed(this.ledFrontDefrost, manager.frontDefrost);
             helper.setLed(this.ledIntCirc, manager.intCirc);
             helper.setLed(this.ledHazard, manager.hazards);
-            if (manager.getRadioButton())
-            {
-                this.btMedia.Content = "Radio";
-            }
-            else
-            {
-                this.btMedia.Content = "Media";
-            }
+            this.btMedia.Content = "Media";
+            setStation(manager.currentStation);
         }
 
         private void setStation(int stationPos) {
@@ -285,6 +283,7 @@ namespace CarInterface
         {
             this.Frame.Navigate(typeof(NavPage));
         }
+
     }
 
 

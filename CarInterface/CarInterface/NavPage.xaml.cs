@@ -49,7 +49,8 @@ namespace CarInterface
             {
                 this.btMedia.Content = "Media";
             }
-            this.txtNav.Visibility = Visibility.Collapsed;
+            loadMap();
+            
         }
 
         private void setStation(int stationPos)
@@ -153,8 +154,14 @@ namespace CarInterface
 
         private void btMedia_Click(object sender, RoutedEventArgs e)
         {
-            manager.swapRadioButton();
-            this.Frame.Navigate(typeof(MediaPage));
+            if (manager.getRadioButton())
+            {
+                this.Frame.Navigate(typeof(MainPage));
+            }
+            else
+            {
+                this.Frame.Navigate(typeof(MediaPage));
+            }
         }
 
         private void btCall_Click(object sender, RoutedEventArgs e)
@@ -179,23 +186,41 @@ namespace CarInterface
 
         private void btTouchToSpeak(object sender, RoutedEventArgs e)
         {
-            this.txtNav.Visibility = Visibility.Visible;
-            var brush = new ImageBrush();
-            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/route-map.png"));
-            this.btMap.Background = brush;
+            manager.navImage = "Assets/icons/route-map.png";
+            loadMap();
         }
 
         private void btCancel_Click(object sender, RoutedEventArgs e)
         {
-            this.txtNav.Visibility = Visibility.Collapsed;
-            var brush = new ImageBrush();
-            brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/map.png"));
-            this.btMap.Background = brush;
+            manager.navImage = "Assets/icons/map.png";
+            loadMap();
+
+
         }
 
+
+        private void loadMap() {
+            BitmapImage brush = new BitmapImage(new Uri(this.BaseUri, manager.navImage));
+            this.btMap.Source = brush;
+            if (manager.navImage.Equals("Assets/icons/route-map.png"))
+            {
+                btCancel.IsEnabled = true;
+
+                this.txtNav.Visibility = Visibility.Visible;
+            }
+            else {
+                btCancel.IsEnabled = false;
+
+                this.txtNav.Visibility = Visibility.Collapsed;
+
+            }
+
+        }
         private void txtNav_SelectionChanged(object sender, RoutedEventArgs e)
         {
 
         }
+
+      
     }
 }

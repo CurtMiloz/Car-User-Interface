@@ -50,6 +50,14 @@ namespace CarInterface
             {
                 this.btMedia.Content = "Media";
             }
+
+            if (manager.connected)
+            {
+                btNo.Visibility = Visibility.Collapsed;
+                btYes.Visibility = Visibility.Collapsed;
+                lblBluetoothMethod_Copy.Visibility = Visibility.Collapsed;
+                lblBluetoothMethod.Text = "Phone is Paired";
+            }
         }
 
         private void setStation(int stationPos)
@@ -159,8 +167,15 @@ namespace CarInterface
 
         private void btMedia_Click(object sender, RoutedEventArgs e)
         {
-            manager.swapRadioButton();
-            this.Frame.Navigate(typeof(MediaPage));
+
+            if (manager.getRadioButton())
+            {
+                this.Frame.Navigate(typeof(MainPage));
+            }
+            else
+            {
+                this.Frame.Navigate(typeof(MediaPage));
+            }
         }
 
         private void btCall_Click(object sender, RoutedEventArgs e)
@@ -195,6 +210,8 @@ namespace CarInterface
             btNo.Visibility = Visibility.Collapsed;
             btYes.Visibility = Visibility.Collapsed;
             lblBluetoothMethod_Copy.Visibility = Visibility.Collapsed;
+            lblBluetoothMethod.Text = "Phone is Paired";
+            manager.connected = true;
             Helper.MessageBoxAsync("Connected!", "Info");
         }
 

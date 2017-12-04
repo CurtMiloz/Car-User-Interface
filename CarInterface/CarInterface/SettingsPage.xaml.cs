@@ -161,7 +161,16 @@ namespace CarInterface
       
         private void btMedia_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MediaPage));
+
+            if (manager.getRadioButton())
+            {
+                this.Frame.Navigate(typeof(MainPage));
+            }
+            else
+            {
+                this.Frame.Navigate(typeof(MediaPage));
+            }
+            
         }
 
         private void btCall_Click(object sender, RoutedEventArgs e)
@@ -201,10 +210,7 @@ namespace CarInterface
 
         }
 
-        private void btBack_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+    
     }
 
 

@@ -48,14 +48,9 @@ namespace CarInterface
             helper.setLed(this.ledFrontDefrost, manager.frontDefrost);
             helper.setLed(this.ledIntCirc, manager.intCirc);
             helper.setLed(this.ledHazard, manager.hazards);
-            if (manager.getRadioButton())
-            {
-                this.btMedia.Content = "Radio";
-            }
-            else
-            {
-                this.btMedia.Content = "Media";
-            }
+            this.btMedia.Content = "Radio";
+          
+            setPlaylist(manager.currentStation);
 
         }
 

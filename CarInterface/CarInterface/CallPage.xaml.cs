@@ -50,6 +50,31 @@ namespace CarInterface
                 {
                     this.btMedia.Content = "Media";
                 }
+
+            if (manager.connected)
+            {
+                this.lblFreqContacted.Text = "Frequently Contacted";
+                this.btPerson1.Visibility = Visibility.Visible;
+                this.btPerson2.Visibility = Visibility.Visible;
+                this.btPerson3.Visibility = Visibility.Visible;
+                this.btPerson4.Visibility = Visibility.Visible;
+                this.btPerson5.Visibility = Visibility.Visible;
+                this.btCallVoice.Visibility = Visibility.Visible;
+                this.lblClickToCall.Visibility = Visibility.Visible;
+                this.lblClickToCall_Copy.Visibility = Visibility.Visible;
+            }
+            else {
+                this.lblFreqContacted.Text = "Please pair phone, click settings and go to pairing phone";
+                this.btPerson1.Visibility = Visibility.Collapsed;
+                this.btPerson2.Visibility = Visibility.Collapsed;
+                this.btPerson3.Visibility = Visibility.Collapsed;
+                this.btPerson4.Visibility = Visibility.Collapsed;
+                this.btPerson5.Visibility = Visibility.Collapsed;
+                this.btCallVoice.Visibility = Visibility.Collapsed;
+                this.lblClickToCall.Visibility = Visibility.Collapsed;
+                this.lblClickToCall_Copy.Visibility = Visibility.Collapsed;
+
+            }
             }
 
             private void setStation(int stationPos)
@@ -159,9 +184,16 @@ namespace CarInterface
 
             private void btMedia_Click(object sender, RoutedEventArgs e)
             {
-                manager.swapRadioButton();
+
+            if (manager.getRadioButton())
+            {
+                this.Frame.Navigate(typeof(MainPage));
+            }
+            else
+            {
                 this.Frame.Navigate(typeof(MediaPage));
             }
+        }
 
             private void btCall_Click(object sender, RoutedEventArgs e)
             {
@@ -173,10 +205,13 @@ namespace CarInterface
                 this.Frame.Navigate(typeof(AirPage));
             }
 
-            private void btSettings_Click(object sender, RoutedEventArgs e)
-            {
-                this.Frame.Navigate(typeof(SettingsPage));
-            }
+        private void btSettings_Click(object sender, RoutedEventArgs e)
+        {
+
+            
+          this.Frame.Navigate(typeof(SettingsPage));
+            
+        }
 
         private void btNav_Click(object sender, RoutedEventArgs e)
         {

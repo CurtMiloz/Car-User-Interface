@@ -78,6 +78,14 @@
       <RootProperty Name="TextAlignment" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="Stretch" />
       <RootProperty Name="ImageSource" />
@@ -120,6 +128,13 @@
     <RootType FullName="CarInterface.MainPage" />
     <RootType FullName="CarInterface.MediaPage" />
     <RootType FullName="CarInterface.MusicSettingPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+    </RootType>
     <RootType FullName="CarInterface.NavPage" />
     <RootType FullName="CarInterface.PairPage" />
     <RootType FullName="CarInterface.SettingsPage" />

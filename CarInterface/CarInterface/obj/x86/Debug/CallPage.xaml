@@ -88,12 +88,13 @@
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Microphone.png"/>
             </Button.Background>
         </Button>
-        <Button x:ConnectionId='31' x:Name="btPerson1" Content="Person 1" HorizontalAlignment="Left" Margin="482,126,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="96" Width="1163"                          FontSize="48" Grid.ColumnSpan="2"/>
-        <Button x:ConnectionId='32' x:Name="btPerson2" Content="Person 2" HorizontalAlignment="Left" Margin="482,236,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="96" Width="1163"                          FontSize="48" Grid.ColumnSpan="2"/>
-        <Button x:ConnectionId='33' x:Name="btPerson3" Content="Person 3" HorizontalAlignment="Left" Margin="482,343,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="96" Width="1163"                          FontSize="48" Grid.ColumnSpan="2"/>
-        <Button x:ConnectionId='34' x:Name="btPerson4" Content="Person 4" HorizontalAlignment="Left" Margin="482,452,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="96" Width="1163"                          FontSize="48" Grid.ColumnSpan="2"/>
-        <Button x:ConnectionId='35' x:Name="btPerson5" Content="Person 5" HorizontalAlignment="Left" Margin="482,558,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="96" Width="1163"                          FontSize="48" Grid.ColumnSpan="2"/>
-        <TextBlock x:ConnectionId='36' x:Name="lblFreqContacted" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="111" Margin="482,10,0,0" TextWrapping="Wrap" Text="Frequently Contacted" VerticalAlignment="Top" Width="947" FontSize="72"/>
+        <TextBlock x:ConnectionId='31' x:Name="lblFreqContacted" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="469" Margin="482,10,0,0" TextWrapping="Wrap" Text="Frequently Contacted" VerticalAlignment="Top" Width="877" FontSize="72"/>
+
+        <Button x:ConnectionId='32' x:Name="btPerson1" Content="Person 1" HorizontalAlignment="Left" Margin="482,126,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="96" Width="1163"                          FontSize="48" Grid.ColumnSpan="2"/>
+        <Button x:ConnectionId='33' x:Name="btPerson2" Content="Person 2" HorizontalAlignment="Left" Margin="482,236,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="96" Width="1163"                          FontSize="48" Grid.ColumnSpan="2"/>
+        <Button x:ConnectionId='34' x:Name="btPerson3" Content="Person 3" HorizontalAlignment="Left" Margin="482,343,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="96" Width="1163"                          FontSize="48" Grid.ColumnSpan="2"/>
+        <Button x:ConnectionId='35' x:Name="btPerson4" Content="Person 4" HorizontalAlignment="Left" Margin="482,452,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="96" Width="1163"                          FontSize="48" Grid.ColumnSpan="2"/>
+        <Button x:ConnectionId='36' x:Name="btPerson5" Content="Person 5" HorizontalAlignment="Left" Margin="482,558,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="96" Width="1163"                          FontSize="48" Grid.ColumnSpan="2"/>
         <TextBlock x:ConnectionId='37' x:Name="lblClickToCall" HorizontalAlignment="Left" Margin="297,532,0,0" TextWrapping="Wrap" Text="Click for voice " VerticalAlignment="Top" FontSize="24"                                                   />
         <TextBlock x:ConnectionId='38' x:Name="lblClickToCall_Copy" HorizontalAlignment="Left" Margin="314,569,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24">
             <Run Text="c"/>

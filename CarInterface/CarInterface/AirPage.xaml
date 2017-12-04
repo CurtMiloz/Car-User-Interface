@@ -149,8 +149,10 @@
                 <ImageBrush Stretch="Fill" ImageSource="Assets/Down.png"/>
             </Button.Background>
         </Button>
-        <Rectangle x:Name="recLeftLevel" Fill="Black" HorizontalAlignment="Left" Height="28" Margin="229,541,0,0" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="117"/>
-        <Rectangle x:Name="recRightLevel" Fill="Black" HorizontalAlignment="Left" Height="28" Margin="370,541,0,0" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="117" Grid.Column="1"/>
+        <Canvas Name="canvas">
+            <Rectangle x:Name="recLeftLevel" Fill="Black" HorizontalAlignment="Left" Height="28" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="117" Canvas.Left="230" Canvas.Top="383"/>
+            <Rectangle x:Name="recRightLevel" Fill="Black" HorizontalAlignment="Left" Height="28" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="117" Grid.Column="1" Canvas.Left="1555" Canvas.Top="383"/>
+        </Canvas>
         <TextBlock x:Name="lblTime" HorizontalAlignment="Left" Margin="783,131,0,0" TextWrapping="Wrap" Text="8:06pm" VerticalAlignment="Top" FontSize="72" Height="94" Width="487" Grid.ColumnSpan="2"/>
         <Ellipse x:Name="ledLeftSeatHeater" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="400,240,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
 

@@ -22,10 +22,11 @@ namespace CarInterface
 
         public bool mute = false;
         public int volume = 5;
-        public int airLeft = 20;
-        public int airRight = 20;
+        public int airLeft = 23;
+        public int airRight = 23;
         public bool RadioButton = true;
         public int air = 0;
+        public string navImage = "";
 
         public bool acOn = false;
         public bool rearDefrost = false;
@@ -46,8 +47,13 @@ namespace CarInterface
         public bool rightSeatHeater = false;
         public int directionCounter = 0;
 
-        public int fadeMode = 0;
+        public int fadeMode = 10;
         public int bass = 0;
+
+
+        public bool connected = false;
+        public double leftRecY = -1;
+        public double rightRecY = -1;
 
         enum Screen {Radio, Media, Air, Settings, Call, Music_Setting, Connect_Settings};
 
@@ -58,6 +64,7 @@ namespace CarInterface
         {
             screen = Screen.Radio;
             this.directionCounter = 0;
+            this.navImage =  "Assets/icons/map.png";
         }
 
 
@@ -71,9 +78,14 @@ namespace CarInterface
 
         public void setVolume(int Amount) {
             
-            if(!mute && Amount <= 100 && Amount >= 0) { volume = Amount; }
-
-            Helper.MessageBoxQuickAsync(volume.ToString(), "Volume");
+            if(Amount <= 100 && Amount >= 0) {
+                volume = Amount;
+               
+            }
+            if (!mute) {
+                Helper.MessageBoxQuickAsync(volume.ToString(), "Volume");
+            }
+            
         }
 
         public void setAir(int Amount)
@@ -99,7 +111,7 @@ namespace CarInterface
         public void leftTempUp()
         {
 
-            if (airLeft < 40) { airLeft = airLeft + 1; }
+            if (airLeft < 30) { airLeft = airLeft + 1; }
             Helper.MessageBoxAsync(airLeft.ToString(), "Left Side Temperature");
         }
 
@@ -113,7 +125,7 @@ namespace CarInterface
         public void rightTempUp()
         {
 
-            if (airRight < 40) { airRight = airRight + 1; }
+            if (airRight < 30) { airRight = airRight + 1; }
             Helper.MessageBoxAsync(airRight.ToString(), "Right Side Temperature");
             
         }

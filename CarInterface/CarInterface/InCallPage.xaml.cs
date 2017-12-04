@@ -173,8 +173,15 @@ namespace CarInterface.Assets.icons
 
         private void btMedia_Click(object sender, RoutedEventArgs e)
         {
-            manager.swapRadioButton();
-            this.Frame.Navigate(typeof(MediaPage));
+
+            if (manager.getRadioButton())
+            {
+                this.Frame.Navigate(typeof(MainPage));
+            }
+            else
+            {
+                this.Frame.Navigate(typeof(MediaPage));
+            }
         }
 
         private void btCall_Click(object sender, RoutedEventArgs e)
@@ -190,6 +197,7 @@ namespace CarInterface.Assets.icons
         private void btSettings_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(SettingsPage));
+         
         }
 
         private void btNav_Click(object sender, RoutedEventArgs e)

@@ -33,7 +33,7 @@ namespace CarInterface
                 this.InitializeComponent();
                 this.helper = new Helper();
 
-                manager = Manager.manager;
+                this.manager = Manager.manager;
                 this.dlTune.Angle = (360 * (manager.currentStation / 6.0));
             this.dlVolume.Angle = 360 * (manager.volume / 100.0);
             this.dlAir.Angle = 360 * (manager.air / 10.0);
@@ -48,6 +48,14 @@ namespace CarInterface
 
                  lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
             setFanImage();
+            if (manager.leftRecY != -1)
+            {
+                Canvas.SetTop(recLeftLevel, manager.leftRecY);
+            }
+            if (manager.rightRecY != -1)
+            {
+                Canvas.SetTop(recRightLevel, manager.rightRecY);
+            }
             if (manager.getRadioButton())
                 {
                     this.btMedia.Content = "Radio";
@@ -163,9 +171,16 @@ namespace CarInterface
 
             private void btMedia_Click(object sender, RoutedEventArgs e)
             {
-                manager.swapRadioButton();
+
+            if (manager.getRadioButton())
+            {
+                this.Frame.Navigate(typeof(MainPage));
+            }
+            else
+            {
                 this.Frame.Navigate(typeof(MediaPage));
             }
+        }
 
             private void btCall_Click(object sender, RoutedEventArgs e)
             {
@@ -179,8 +194,10 @@ namespace CarInterface
 
             private void btSettings_Click(object sender, RoutedEventArgs e)
             {
-                this.Frame.Navigate(typeof(SettingsPage));
-            }
+            
+                    this.Frame.Navigate(typeof(SettingsPage));
+                
+        }
 
         private void btNav_Click(object sender, RoutedEventArgs e)
         {
@@ -219,33 +236,59 @@ namespace CarInterface
 
         private void btLeftUpTouch_Click(object sender, RoutedEventArgs e)
         {
-           
-                manager.leftTempUp();
-                lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
+            if (manager.airLeft < 30)
+            {
+                double y = Canvas.GetTop(recLeftLevel);
+                y -= 30;
+                manager.leftRecY = y;
+                Canvas.SetTop(recLeftLevel, y);
+            }
+            manager.leftTempUp();
+            lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
+          
+            
             
         }
 
         private void btLeftDownTouch_Click(object sender, RoutedEventArgs e)
         {
-            
-                manager.leftTempDown();
-                lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
+            if (manager.airLeft > 16)
+            {
+                double y = Canvas.GetTop(recLeftLevel);
+                y += 30;
+                manager.leftRecY = y;
+                Canvas.SetTop(recLeftLevel, y);
+            }
+            manager.leftTempDown();
+            lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
             
         }
 
         private void btRightUpTouch_Click(object sender, RoutedEventArgs e)
         {
-           
-                manager.rightTempUp();
-                lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
+            if (manager.airRight < 30)
+            {
+                double y = Canvas.GetTop(recRightLevel);
+                y -= 30;
+                manager.rightRecY = y;
+                Canvas.SetTop(recRightLevel, y);
+            }
+            manager.rightTempUp();
+            lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
            
         }
 
         private void btRightDownTouch_Click(object sender, RoutedEventArgs e)
         {
-          
-                manager.rightTempDown();
-                lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
+            if (manager.airRight > 16)
+            {
+                double y = Canvas.GetTop(recRightLevel);
+                y += 30;
+                manager.rightRecY = y;
+                Canvas.SetTop(recRightLevel, y);
+            }
+            manager.rightTempDown();
+            lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
             
         }
 
