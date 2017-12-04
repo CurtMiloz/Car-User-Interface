@@ -28,21 +28,19 @@ namespace CarInterface
         //This is the booleans for the button logic 
         Helper helper;
         Manager manager;
-        bool setRadStation = false;
-        int bass = 0;
+        
         public MusicSettingPage()
         {
             this.InitializeComponent();
-            this.helper = new Helper();
-            Manager.manager = new Manager();
 
             this.helper = new Helper();
 
-            this.lblBass.Text = this.bass.ToString();
-
+            
             manager = Manager.manager;
+            this.lblBass.Text = this.manager.bass.ToString();
+
             this.dlTune.Angle = (360 * (manager.currentStation / 6.0));
-            this.dlVolume.Angle = manager.volume;
+            this.dlVolume.Angle = 360*(manager.volume/100.0);
             this.dlAir.Angle = 360 * (manager.air / 10.0);
             helper.setLed(this.ledAC, manager.acOn);
             helper.setLed(this.ledRearDefrost, manager.rearDefrost);
@@ -193,19 +191,19 @@ namespace CarInterface
 
         private void btBaseUp_Click(object sender, RoutedEventArgs e)
         {
-            if (this.bass < 10)
+            if (this.manager.bass < 10)
             {
-                this.bass += 1;
-                this.lblBass.Text = this.bass.ToString();
+                this.manager.bass += 1;
+                this.lblBass.Text = this.manager.bass.ToString();
             }
         }
 
         private void btBassDown_Click(object sender, RoutedEventArgs e)
         {
-            if (this.bass > -10)
+            if (this.manager.bass > -10)
             {
-                this.bass -= 1;
-                this.lblBass.Text = this.bass.ToString();
+                this.manager.bass -= 1;
+                this.lblBass.Text = this.manager.bass.ToString();
             }
         }
 
@@ -522,6 +520,11 @@ namespace CarInterface
             var brush7 = new ImageBrush();
             brush7.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down-Arrow.png"));
             this.btDown.Background = brush7;
+        }
+
+        private void btBack_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(SettingsPage));
         }
     }
 }

@@ -140,10 +140,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Down.png" />
-    <Content Include="Assets\icons\Down and up.png" />
     <Content Include="Assets\icons\Down-Arrow_clicked.png" />
     <Content Include="Assets\icons\Down-Left-Arrow_clicked.png" />
     <Content Include="Assets\icons\Down-Right-Arrow_clicked.png" />
+    <Content Include="Assets\icons\Down_and_up.png" />
     <Content Include="Assets\icons\Left-Arrow_clicked.png" />
     <Content Include="Assets\icons\map.png" />
     <Content Include="Assets\icons\Right-Arrow_clicked.png" />

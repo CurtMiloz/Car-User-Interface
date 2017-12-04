@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -26,29 +27,27 @@ namespace CarInterface
             //This is the booleans for the button logic 
             Helper helper;
             Manager manager;
-            bool setRadStation = false;
-            bool leftSeatHeater = false;
-            bool rightSeatHeater = false;
-            int directionCounter = 1;
+           
             public AirPage()
             {
                 this.InitializeComponent();
                 this.helper = new Helper();
-                Manager.manager = new Manager();
-
-                this.helper = new Helper();
 
                 manager = Manager.manager;
                 this.dlTune.Angle = (360 * (manager.currentStation / 6.0));
-                this.dlVolume.Angle = manager.volume;
-                this.dlAir.Angle = 360 * (manager.air / 10.0);
+            this.dlVolume.Angle = 360 * (manager.volume / 100.0);
+            this.dlAir.Angle = 360 * (manager.air / 10.0);
                 helper.setLed(this.ledAC, manager.acOn);
                 helper.setLed(this.ledRearDefrost, manager.rearDefrost);
                 helper.setLed(this.ledFrontDefrost, manager.frontDefrost);
                 helper.setLed(this.ledIntCirc, manager.intCirc);
                 helper.setLed(this.ledHazard, manager.hazards);
-                helper.setLed(this.ledLeftSeatHeater, leftSeatHeater);
-                helper.setLed(this.ledRightSeatHeater, rightSeatHeater);
+                helper.setLed(this.ledLeftSeatHeater, manager.leftSeatHeater);
+                helper.setLed(this.ledRightSeatHeater, manager.rightSeatHeater);
+                 lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
+
+                 lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
+            setFanImage();
             if (manager.getRadioButton())
                 {
                     this.btMedia.Content = "Radio";
@@ -83,21 +82,25 @@ namespace CarInterface
             private void btTempLU_Click(object sender, RoutedEventArgs e)
             {
                 manager.leftTempUp();
-            }
+                lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
+        }
 
             private void btTempLD_Click(object sender, RoutedEventArgs e)
             {
                 manager.leftTempDown();
-            }
+                lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
+        }
             private void btTempRU_Click(object sender, RoutedEventArgs e)
             {
                 manager.rightTempUp();
+                lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
 
-            }
+        }
             private void btTempRD_Click(object sender, RoutedEventArgs e)
             {
                 manager.rightTempDown();
-            }
+                lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
+        }
 
 
             private void btMute_Click(object sender, RoutedEventArgs e)
@@ -194,67 +197,76 @@ namespace CarInterface
 
         private void btHeatedLeft_Click(object sender, RoutedEventArgs e)
         {
-            helper.swapLed(this.ledLeftSeatHeater, leftSeatHeater);
-            leftSeatHeater = !leftSeatHeater;
+            helper.swapLed(this.ledLeftSeatHeater, manager.leftSeatHeater);
+            manager.leftSeatHeater = !manager.leftSeatHeater;
         }
 
         private void btFanPos_Click(object sender, RoutedEventArgs e)
         {
 
-           // directionCounter += 1;
-            if(directionCounter%3 == 1)
-            {
-                
-            }
-            if(directionCounter %3 == 2)
-            {
+            manager.directionCounter += 1;
+            setFanImage();
 
-            }
-            else
-            {
 
-            }
         }
 
         private void btHeatedRight_Click(object sender, RoutedEventArgs e)
         {
 
-            helper.swapLed(this.ledRightSeatHeater, rightSeatHeater);
-            rightSeatHeater = !rightSeatHeater;
+            helper.swapLed(this.ledRightSeatHeater, manager.rightSeatHeater);
+            manager.rightSeatHeater = !manager.rightSeatHeater;
         }
 
         private void btLeftUpTouch_Click(object sender, RoutedEventArgs e)
         {
-            if (manager.airLeft < 28)
-            {
+           
                 manager.leftTempUp();
-                lblLeftSideTemp.Text = "Right Set Temp: " + manager.airLeft.ToString() + "°C";
-            }
+                lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
+            
         }
 
         private void btLeftDownTouch_Click(object sender, RoutedEventArgs e)
         {
-            if (manager.airLeft > 18)
-            {
+            
                 manager.leftTempDown();
                 lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
-            }
+            
         }
 
         private void btRightUpTouch_Click(object sender, RoutedEventArgs e)
         {
-            if (manager.airRight < 28)
-            {
+           
                 manager.rightTempUp();
                 lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
-            }
+           
         }
 
         private void btRightDownTouch_Click(object sender, RoutedEventArgs e)
         {
-            if (manager.airRight > 18) {
+          
                 manager.rightTempDown();
                 lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
+            
+        }
+
+        private void setFanImage() {
+            if (manager.directionCounter % 3 == 0)
+            {
+                var brush = new ImageBrush();
+                brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/up.png"));
+                this.btFanPos.Background = brush;
+            }
+            else if (manager.directionCounter % 3 == 1)
+            {
+                var brush = new ImageBrush();
+                brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down_and_up.png"));
+                this.btFanPos.Background = brush;
+            }
+            else
+            {
+                var brush = new ImageBrush();
+                brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down.png"));
+                this.btFanPos.Background = brush;
             }
         }
 

@@ -41,7 +41,7 @@ namespace CarInterface
 
             manager = Manager.manager;
             this.dlTune.Angle = (360 * (manager.currentStation / 6.0));
-            this.dlVolume.Angle = manager.volume;
+            this.dlVolume.Angle = 360 * (manager.volume / 100.0);
             this.dlAir.Angle = 360 * (manager.air / 10.0);
             helper.setLed(this.ledAC, manager.acOn);
             helper.setLed(this.ledRearDefrost, manager.rearDefrost);

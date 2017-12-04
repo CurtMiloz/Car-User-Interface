@@ -40,6 +40,15 @@ namespace CarInterface
         public int currSong = 0;
         public int[] playlistMapping = { 0, 1, 2, 3, 4 };
 
+
+        public bool setRadStation = false;
+        public bool leftSeatHeater = false;
+        public bool rightSeatHeater = false;
+        public int directionCounter = 0;
+
+        public int fadeMode = 0;
+        public int bass = 0;
+
         enum Screen {Radio, Media, Air, Settings, Call, Music_Setting, Connect_Settings};
 
 
@@ -48,6 +57,7 @@ namespace CarInterface
         public Manager()
         {
             screen = Screen.Radio;
+            this.directionCounter = 0;
         }
 
 
