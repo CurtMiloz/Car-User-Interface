@@ -52,8 +52,6 @@ namespace CarInterface
 
 
         public bool connected = false;
-        public double leftRecY = -1;
-        public double rightRecY = -1;
 
         enum Screen {Radio, Media, Air, Settings, Call, Music_Setting, Connect_Settings};
 

@@ -48,14 +48,10 @@ namespace CarInterface
 
                  lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
             setFanImage();
-            if (manager.leftRecY != -1)
-            {
-                Canvas.SetTop(recLeftLevel, manager.leftRecY);
-            }
-            if (manager.rightRecY != -1)
-            {
-                Canvas.SetTop(recRightLevel, manager.rightRecY);
-            }
+
+            Canvas.SetTop(recLeftLevel, Canvas.GetTop(recLeftLevel) + (23 - manager.airLeft) * 30);
+            Canvas.SetTop(recRightLevel, Canvas.GetTop(recRightLevel) + (23 - manager.airRight) * 30);
+            
             if (manager.getRadioButton())
                 {
                     this.btMedia.Content = "Radio";
@@ -89,26 +85,50 @@ namespace CarInterface
 
             private void btTempLU_Click(object sender, RoutedEventArgs e)
             {
+                if (manager.airLeft < 30)
+                {
+                    double y = Canvas.GetTop(recLeftLevel);
+                    y -= 30;
+                    Canvas.SetTop(recLeftLevel, y);
+                }
                 manager.leftTempUp();
                 lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
-        }
+            }
 
             private void btTempLD_Click(object sender, RoutedEventArgs e)
             {
+                if (manager.airLeft > 16)
+                {
+                    double y = Canvas.GetTop(recLeftLevel);
+                    y += 30;
+                    Canvas.SetTop(recLeftLevel, y);
+                }
                 manager.leftTempDown();
                 lblLeftSideTemp.Text = "Left Set Temp: " + manager.airLeft.ToString() + "°C";
-        }
+            }
             private void btTempRU_Click(object sender, RoutedEventArgs e)
             {
+                if (manager.airRight < 30)
+                {
+                    double y = Canvas.GetTop(recRightLevel);
+                    y -= 30;
+                    Canvas.SetTop(recRightLevel, y);
+                }
                 manager.rightTempUp();
                 lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
 
-        }
+            }
             private void btTempRD_Click(object sender, RoutedEventArgs e)
             {
+                if (manager.airRight > 16)
+                {
+                    double y = Canvas.GetTop(recRightLevel);
+                    y += 30;
+                    Canvas.SetTop(recRightLevel, y);
+                }
                 manager.rightTempDown();
                 lblRightSideTemp.Text = "Right Set Temp: " + manager.airRight.ToString() + "°C";
-        }
+            }
 
 
             private void btMute_Click(object sender, RoutedEventArgs e)
@@ -240,7 +260,6 @@ namespace CarInterface
             {
                 double y = Canvas.GetTop(recLeftLevel);
                 y -= 30;
-                manager.leftRecY = y;
                 Canvas.SetTop(recLeftLevel, y);
             }
             manager.leftTempUp();
@@ -256,7 +275,6 @@ namespace CarInterface
             {
                 double y = Canvas.GetTop(recLeftLevel);
                 y += 30;
-                manager.leftRecY = y;
                 Canvas.SetTop(recLeftLevel, y);
             }
             manager.leftTempDown();
@@ -270,7 +288,6 @@ namespace CarInterface
             {
                 double y = Canvas.GetTop(recRightLevel);
                 y -= 30;
-                manager.rightRecY = y;
                 Canvas.SetTop(recRightLevel, y);
             }
             manager.rightTempUp();
@@ -284,7 +301,6 @@ namespace CarInterface
             {
                 double y = Canvas.GetTop(recRightLevel);
                 y += 30;
-                manager.rightRecY = y;
                 Canvas.SetTop(recRightLevel, y);
             }
             manager.rightTempDown();

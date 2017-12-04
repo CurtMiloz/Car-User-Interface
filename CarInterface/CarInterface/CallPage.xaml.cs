@@ -26,7 +26,6 @@ namespace CarInterface
             //This is the booleans for the button logic 
             Helper helper;
             Manager manager;
-            bool setRadStation = false;
             public CallPage()
             {
                 this.InitializeComponent();
@@ -233,7 +232,6 @@ namespace CarInterface
         {
             this.Frame.Navigate(typeof(InCallPage), "person 1");
             
-
 
         }
         private void btPerson2_Click(object sender, RoutedEventArgs e)
