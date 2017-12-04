@@ -82,7 +82,7 @@
         <TextBlock x:Name="lblVolume" HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" Text="Volume" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
         <TextBlock x:Name="lblAir" HorizontalAlignment="Left" Margin="990,935,0,0" TextWrapping="Wrap" Text="Air" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="-0.011,1.865"/>
-        <TextBlock x:Name="lblInsideTemp" HorizontalAlignment="Left" Margin="682,541,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Height="101" Width="588" Grid.ColumnSpan="2" Text="Actual Temp: 20°C"/>
+        <TextBlock x:Name="lblInsideTemp" HorizontalAlignment="Left" Margin="682,567,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Height="101" Width="588" Grid.ColumnSpan="2" Text="Actual Temp: 20°C"/>
         <TextBlock x:Name="lblLeftSideTemp" Margin="205,0,348,0" TextWrapping="Wrap" Text="Left Set Temp: 20°C " VerticalAlignment="Top" FontSize="72" Height="94" SelectionChanged="lblInsideTemp_Copy_SelectionChanged"/>
         <TextBlock x:Name="lblRightSideTemp" HorizontalAlignment="Left" Margin="1018,0,0,0" TextWrapping="Wrap" Text="Right Set Temp: 20°C " VerticalAlignment="Top" FontSize="72" Height="94" Width="682" SelectionChanged="lblInsideTemp_Copy_SelectionChanged" Grid.ColumnSpan="2"/>
         <Button x:Name="btHeatedLeft" Content="" HorizontalAlignment="Left" Margin="400,240,0,0" VerticalAlignment="Top" Height="260" Width="296"  Click="btHeatedLeft_Click" FontSize="72">
@@ -155,6 +155,9 @@
         </Canvas>
         <TextBlock x:Name="lblTime" HorizontalAlignment="Left" Margin="783,131,0,0" TextWrapping="Wrap" Text="8:06pm" VerticalAlignment="Top" FontSize="72" Height="94" Width="487" Grid.ColumnSpan="2"/>
         <Ellipse x:Name="ledLeftSeatHeater" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="400,240,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
+        <Ellipse x:Name="op1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="41" Margin="846,526,0,0" Stroke="Black" VerticalAlignment="Top" Width="44"/>
+        <Ellipse x:Name="op2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="41" Margin="958,526,0,0" Stroke="Black" VerticalAlignment="Top" Width="44" RenderTransformOrigin="2.364,0.585"/>
+        <Ellipse x:Name="op3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="41" Margin="1057,526,0,0" Stroke="Black" VerticalAlignment="Top" Width="44" RenderTransformOrigin="4,0.585"/>
 
     </Grid>
 </Page>

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -314,18 +315,30 @@ namespace CarInterface
                 var brush = new ImageBrush();
                 brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/up.png"));
                 this.btFanPos.Background = brush;
+
+                this.op1.Fill = new SolidColorBrush(Colors.Black);
+                this.op2.Fill = new SolidColorBrush(Colors.White);
+                this.op3.Fill = new SolidColorBrush(Colors.White);
             }
             else if (manager.directionCounter % 3 == 1)
             {
                 var brush = new ImageBrush();
                 brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down_and_up.png"));
                 this.btFanPos.Background = brush;
+
+                this.op1.Fill = new SolidColorBrush(Colors.White);
+                this.op2.Fill = new SolidColorBrush(Colors.Black);
+                this.op3.Fill = new SolidColorBrush(Colors.White);
             }
             else
             {
                 var brush = new ImageBrush();
                 brush.ImageSource = new BitmapImage(new Uri(this.BaseUri, "Assets/icons/Down.png"));
                 this.btFanPos.Background = brush;
+
+                this.op1.Fill = new SolidColorBrush(Colors.White);
+                this.op2.Fill = new SolidColorBrush(Colors.White);
+                this.op3.Fill = new SolidColorBrush(Colors.Black);
             }
         }
 

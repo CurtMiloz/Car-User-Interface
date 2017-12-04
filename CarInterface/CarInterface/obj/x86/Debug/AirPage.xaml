@@ -71,18 +71,18 @@
         <Ellipse x:ConnectionId='22' x:Name="ledIntCirc" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="266,877,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Ellipse x:ConnectionId='23' x:Name="ledHazard" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="10,626,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Grid x:ConnectionId='24' ManipulationMode="All"                                            >
-            <local:Dial x:ConnectionId='48' x:Name="dlVolume" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='51' x:Name="dlVolume" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid x:ConnectionId='25' ManipulationMode="All"                                          >
-            <local:Dial x:ConnectionId='47' x:Name="dlTune" HorizontalAlignment="Left" Margin="1726,20,-694,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='50' x:Name="dlTune" HorizontalAlignment="Left" Margin="1726,20,-694,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid x:ConnectionId='26' ManipulationMode="All"                                         >
-            <local:Dial x:ConnectionId='46' x:Name="dlAir" HorizontalAlignment="Left" Margin="929,865,0,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='49' x:Name="dlAir" HorizontalAlignment="Left" Margin="929,865,0,0" VerticalAlignment="Top"/>
         </Grid>
         <TextBlock x:ConnectionId='27' x:Name="lblVolume" HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" Text="Volume" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:ConnectionId='28' x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
         <TextBlock x:ConnectionId='29' x:Name="lblAir" HorizontalAlignment="Left" Margin="990,935,0,0" TextWrapping="Wrap" Text="Air" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="-0.011,1.865"/>
-        <TextBlock x:ConnectionId='30' x:Name="lblInsideTemp" HorizontalAlignment="Left" Margin="682,541,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Height="101" Width="588" Grid.ColumnSpan="2" Text="Actual Temp: 20°C"/>
+        <TextBlock x:ConnectionId='30' x:Name="lblInsideTemp" HorizontalAlignment="Left" Margin="682,567,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72" Height="101" Width="588" Grid.ColumnSpan="2" Text="Actual Temp: 20°C"/>
         <TextBlock x:ConnectionId='31' x:Name="lblLeftSideTemp" Margin="205,0,348,0" TextWrapping="Wrap" Text="Left Set Temp: 20°C " VerticalAlignment="Top" FontSize="72" Height="94"                                                       />
         <TextBlock x:ConnectionId='32' x:Name="lblRightSideTemp" HorizontalAlignment="Left" Margin="1018,0,0,0" TextWrapping="Wrap" Text="Right Set Temp: 20°C " VerticalAlignment="Top" FontSize="72" Height="94" Width="682"                                                        Grid.ColumnSpan="2"/>
         <Button x:ConnectionId='33' x:Name="btHeatedLeft" Content="" HorizontalAlignment="Left" Margin="400,240,0,0" VerticalAlignment="Top" Height="260" Width="296"                             FontSize="72">
@@ -126,7 +126,7 @@
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/heatedSeat.png"/>
             </Button.Background>
-            <Ellipse x:ConnectionId='45' x:Name="ledRightSeatHeater" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="-147,-131,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
+            <Ellipse x:ConnectionId='48' x:Name="ledRightSeatHeater" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="-147,-131,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         </Button>
         <Button x:ConnectionId='37' x:Name="btLeftDownTouch"                                Content="" HorizontalAlignment="Left" Margin="219,543.5,0,0" VerticalAlignment="Top" Height="170" Width="139" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.RenderTransform>
@@ -150,11 +150,14 @@
             </Button.Background>
         </Button>
         <Canvas x:ConnectionId='40' Name="canvas">
-            <Rectangle x:ConnectionId='43' x:Name="recLeftLevel" Fill="Black" HorizontalAlignment="Left" Height="28" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="117" Canvas.Left="230" Canvas.Top="383"/>
-            <Rectangle x:ConnectionId='44' x:Name="recRightLevel" Fill="Black" HorizontalAlignment="Left" Height="28" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="117" Grid.Column="1" Canvas.Left="1555" Canvas.Top="383"/>
+            <Rectangle x:ConnectionId='46' x:Name="recLeftLevel" Fill="Black" HorizontalAlignment="Left" Height="28" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="117" Canvas.Left="230" Canvas.Top="383"/>
+            <Rectangle x:ConnectionId='47' x:Name="recRightLevel" Fill="Black" HorizontalAlignment="Left" Height="28" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="117" Grid.Column="1" Canvas.Left="1555" Canvas.Top="383"/>
         </Canvas>
         <TextBlock x:ConnectionId='41' x:Name="lblTime" HorizontalAlignment="Left" Margin="783,131,0,0" TextWrapping="Wrap" Text="8:06pm" VerticalAlignment="Top" FontSize="72" Height="94" Width="487" Grid.ColumnSpan="2"/>
         <Ellipse x:ConnectionId='42' x:Name="ledLeftSeatHeater" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="400,240,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
+        <Ellipse x:ConnectionId='43' x:Name="op1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="41" Margin="846,526,0,0" Stroke="Black" VerticalAlignment="Top" Width="44"/>
+        <Ellipse x:ConnectionId='44' x:Name="op2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="41" Margin="958,526,0,0" Stroke="Black" VerticalAlignment="Top" Width="44" RenderTransformOrigin="2.364,0.585"/>
+        <Ellipse x:ConnectionId='45' x:Name="op3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="41" Margin="1057,526,0,0" Stroke="Black" VerticalAlignment="Top" Width="44" RenderTransformOrigin="4,0.585"/>
 
     </Grid>
 </Page>

@@ -1278,3 +1278,4 @@ C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debu
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\CarInterface.csprojResolveAssemblyReference.cache
