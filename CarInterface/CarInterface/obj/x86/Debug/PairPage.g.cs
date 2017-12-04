@@ -245,7 +245,7 @@ namespace CarInterface
                 {
                     this.btNo = (global::Windows.UI.Xaml.Controls.Button)(target);
                     #line 89 "..\..\..\PairPage.xaml"
-                    ((global::Windows.UI.Xaml.Controls.Button)this.btNo).Click += this.btNo_Click;
+                    ((global::Windows.UI.Xaml.Controls.Button)this.btNo).Click += this.btNo_ClickAsync;
                     #line default
                 }
                 break;

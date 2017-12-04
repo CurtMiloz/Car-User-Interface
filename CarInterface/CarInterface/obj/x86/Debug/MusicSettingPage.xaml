@@ -71,13 +71,13 @@
         <Ellipse x:ConnectionId='22' x:Name="ledIntCirc" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="266,877,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Ellipse x:ConnectionId='23' x:Name="ledHazard" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="10,626,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Grid x:ConnectionId='24' ManipulationMode="All"                                            >
-            <local:Dial x:ConnectionId='46' x:Name="dlVolume" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='47' x:Name="dlVolume" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid x:ConnectionId='25' ManipulationMode="All"                                          >
-            <local:Dial x:ConnectionId='45' x:Name="dlTune" HorizontalAlignment="Left" Margin="1726,20,-694,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='46' x:Name="dlTune" HorizontalAlignment="Left" Margin="1726,20,-694,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid x:ConnectionId='26' ManipulationMode="All"                                         >
-            <local:Dial x:ConnectionId='44' x:Name="dlAir" HorizontalAlignment="Left" Margin="929,865,0,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='45' x:Name="dlAir" HorizontalAlignment="Left" Margin="929,865,0,0" VerticalAlignment="Top"/>
         </Grid>
         <TextBlock x:ConnectionId='27' x:Name="lblVolume" HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" Text="Volume" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:ConnectionId='28' x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
@@ -120,7 +120,7 @@
             </Button.Background>
         </Button>
         <TextBlock x:ConnectionId='38' x:Name="lblFade" HorizontalAlignment="Left" Margin="990,32,0,0" TextWrapping="Wrap" Text="Fade" VerticalAlignment="Top" FontSize="72"/>
-        <TextBlock x:ConnectionId='39' x:Name="lblBase" HorizontalAlignment="Left" Margin="352,363,0,0" TextWrapping="Wrap" Text="Base" VerticalAlignment="Top" FontSize="72"/>
+        <TextBlock x:ConnectionId='39' x:Name="lblBase" HorizontalAlignment="Left" Margin="354,313,0,0" TextWrapping="Wrap" Text="Base" VerticalAlignment="Top" FontSize="72" RenderTransformOrigin="0.534,-0.469"/>
         <Button x:ConnectionId='40' x:Name="btBassDown" Content="" HorizontalAlignment="Left" Margin="352,509,0,0" VerticalAlignment="Top" Height="146" Width="148"                          FontSize="48">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Down-Arrow.png"/>
@@ -137,6 +137,7 @@
             </Button.Background>
         </Button>
         <TextBlock x:ConnectionId='43' x:Name="lblTime" HorizontalAlignment="Left" Margin="207,30,0,0" TextWrapping="Wrap" Text="8:06pm" VerticalAlignment="Top" FontSize="72" Height="94" Width="281" Grid.Column="1"/>
+        <TextBlock x:ConnectionId='44' x:Name="lblBass" HorizontalAlignment="Left" Margin="354,414,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="71" Width="146" RenderTransformOrigin="-0.15,0.451" FontSize="48" TextAlignment="Center"/>
 
     </Grid>
 </Page>

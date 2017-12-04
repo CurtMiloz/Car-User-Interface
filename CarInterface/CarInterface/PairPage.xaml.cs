@@ -186,12 +186,18 @@ namespace CarInterface
 
         private void btNo_Click(object sender, RoutedEventArgs e)
         {
-
+            btNo.Visibility = Visibility.Collapsed;
+            btYes.Visibility = Visibility.Collapsed;
+            lblBluetoothMethod_Copy.Visibility = Visibility.Collapsed;
+            Helper.MessageBoxAsync("Connection cancelled", "Info");
         }
 
         private void btYes_Click(object sender, RoutedEventArgs e)
         {
-
+            btNo.Visibility = Visibility.Collapsed;
+            btYes.Visibility = Visibility.Collapsed;
+            lblBluetoothMethod_Copy.Visibility = Visibility.Collapsed;
+            Helper.MessageBoxAsync("Connected!", "Info");
         }
 
         private void btView_Click(object sender, RoutedEventArgs e)

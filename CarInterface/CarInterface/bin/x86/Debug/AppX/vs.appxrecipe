@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-03T20:00:32.411</Modified>
+      <Modified>2017-12-03T20:39:56.609</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.exe">
       <PackagePath>entrypoint\CarInterface.exe</PackagePath>
-      <Modified>2017-12-03T20:00:30.936</Modified>
+      <Modified>2017-12-03T20:39:55.128</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Atef\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -691,7 +691,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.xr.xml">
       <PackagePath>CarInterface.xr.xml</PackagePath>
-      <Modified>2017-12-03T19:11:54.390</Modified>
+      <Modified>2017-12-03T20:39:54.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -700,11 +700,11 @@
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-03T20:00:32.047</Modified>
+      <Modified>2017-12-03T20:39:56.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\CarInterface.exe">
       <PackagePath>CarInterface.exe</PackagePath>
-      <Modified>2017-12-03T20:00:32.404</Modified>
+      <Modified>2017-12-03T20:39:56.601</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
