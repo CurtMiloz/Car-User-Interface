@@ -120,7 +120,7 @@
             </Button.Background>
         </Button>
         <TextBlock x:ConnectionId='38' x:Name="lblFade" HorizontalAlignment="Left" Margin="990,32,0,0" TextWrapping="Wrap" Text="Fade" VerticalAlignment="Top" FontSize="72"/>
-        <TextBlock x:ConnectionId='39' x:Name="lblBase" HorizontalAlignment="Left" Margin="421,313,0,0" TextWrapping="Wrap" Text="Base" VerticalAlignment="Top" FontSize="72" RenderTransformOrigin="0.534,-0.469"/>
+        <TextBlock x:ConnectionId='39' x:Name="lblBase" HorizontalAlignment="Left" Margin="421,313,0,0" TextWrapping="Wrap" Text="Bass" VerticalAlignment="Top" FontSize="72" RenderTransformOrigin="0.534,-0.469"/>
         <Button x:ConnectionId='40' x:Name="btBassDown" Content="" HorizontalAlignment="Left" Margin="419,509,0,0" VerticalAlignment="Top" Height="146" Width="148"                          FontSize="48">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Down-Arrow.png"/>

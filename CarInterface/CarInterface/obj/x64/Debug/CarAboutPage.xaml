@@ -71,29 +71,30 @@
         <Ellipse x:ConnectionId='22' x:Name="ledIntCirc" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="266,877,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Ellipse x:ConnectionId='23' x:Name="ledHazard" Fill="Red" HorizontalAlignment="Left" Height="42" Margin="10,626,0,0" Stroke="#FF454549" VerticalAlignment="Top" Width="44"/>
         <Grid x:ConnectionId='24' ManipulationMode="All"                                            >
-            <local:Dial x:ConnectionId='40' x:Name="dlVolume" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='41' x:Name="dlVolume" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid x:ConnectionId='25' ManipulationMode="All"                                          >
-            <local:Dial x:ConnectionId='39' x:Name="dlTune" HorizontalAlignment="Left" Margin="1726,20,-694,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='40' x:Name="dlTune" HorizontalAlignment="Left" Margin="1726,20,-694,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid x:ConnectionId='26' ManipulationMode="All"                                         >
-            <local:Dial x:ConnectionId='38' x:Name="dlAir" HorizontalAlignment="Left" Margin="929,865,0,0" VerticalAlignment="Top"/>
+            <local:Dial x:ConnectionId='39' x:Name="dlAir" HorizontalAlignment="Left" Margin="929,865,0,0" VerticalAlignment="Top"/>
         </Grid>
         <TextBlock x:ConnectionId='27' x:Name="lblVolume" HorizontalAlignment="Left" Margin="25,177,0,0" TextWrapping="Wrap" Text="Volume" VerticalAlignment="Top" FontSize="36"/>
         <TextBlock x:ConnectionId='28' x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
         <TextBlock x:ConnectionId='29' x:Name="lblAir" HorizontalAlignment="Left" Margin="990,935,0,0" TextWrapping="Wrap" Text="Air" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="-0.011,1.865"/>
-        <TextBlock x:ConnectionId='30' x:Name="lblMakeModel" HorizontalAlignment="Left" Height="102" Margin="443,42,0,0" TextWrapping="Wrap" Text="Model: 2017 Team 32 Car" VerticalAlignment="Top" Width="909" FontSize="72" Grid.ColumnSpan="2"/>
-        <TextBlock x:ConnectionId='31' x:Name="lblSoftwareVersion" HorizontalAlignment="Left" Height="102" Margin="443,149,0,0" TextWrapping="Wrap" Text="Software Ver: 3.0.01" VerticalAlignment="Top" Width="909" FontSize="72" Grid.ColumnSpan="2"/>
+        <TextBlock x:ConnectionId='30' x:Name="lblMakeModel" HorizontalAlignment="Left" Height="102" Margin="443,10,0,0" TextWrapping="Wrap" Text="Model: 2017 Team 32 Car" VerticalAlignment="Top" Width="909" FontSize="72" Grid.ColumnSpan="2"/>
+        <TextBlock x:ConnectionId='31' x:Name="lblSoftwareVersion" HorizontalAlignment="Left" Height="102" Margin="443,99,0,0" TextWrapping="Wrap" Text="Software Ver: 3.0.01" VerticalAlignment="Top" Width="909" FontSize="72" Grid.ColumnSpan="2"/>
         <TextBlock x:ConnectionId='32' x:Name="lblCopyRight" HorizontalAlignment="Left" Height="102" Margin="263,597,0,0" TextWrapping="Wrap" Text="Project Owners: Group 32" VerticalAlignment="Top" Width="909" FontSize="48"/>
-        <TextBlock x:ConnectionId='33' x:Name="lblCopyRight_Copy" HorizontalAlignment="Left" Height="88" Margin="266,264,0,0" TextWrapping="Wrap" Text="Accreditation: " VerticalAlignment="Top" Width="1441" FontSize="48" Grid.ColumnSpan="2"/>
-        <Button x:ConnectionId='34' x:Name="btBack" Content="" HorizontalAlignment="Left" Margin="205,42,0,0" VerticalAlignment="Top" Height="175" Width="211"                     >
+        <TextBlock x:ConnectionId='33' x:Name="lblCopyRight_Copy" HorizontalAlignment="Left" Height="88" Margin="266,188,0,0" TextWrapping="Wrap" Text="Accreditation: " VerticalAlignment="Top" Width="1441" FontSize="48" Grid.ColumnSpan="2"/>
+        <Button x:ConnectionId='34' x:Name="btBack" Content="" HorizontalAlignment="Left" Margin="205,0,0,0" VerticalAlignment="Top" Height="175" Width="211"                     >
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/icons8-Back-48.png"/>
             </Button.Background>
         </Button>
         <TextBlock x:ConnectionId='35' x:Name="lblTime" HorizontalAlignment="Left" Margin="207,30,0,0" TextWrapping="Wrap" Text="8:06pm" VerticalAlignment="Top" FontSize="72" Height="94" Width="281" Grid.Column="1"/>
-        <TextBlock x:ConnectionId='36' x:Name="lblCopyRight_Copy1" HorizontalAlignment="Left" Height="211" Margin="263,352,0,0" TextWrapping="Wrap" Text="Stickers, i. and AI, I. (2017). Material Design Icons - 4,300 Free Icons. [online] Icons8. Available at: https://icons8.com/android-icons/ [Accessed 1 Nov. 2017]." VerticalAlignment="Top" Width="1441" FontSize="36" Grid.ColumnSpan="2"/>
-        <TextBlock x:ConnectionId='37' x:Name="lblCopyRight_Copy2" HorizontalAlignment="Left" Height="103" Margin="259,489,0,0" TextWrapping="Wrap" Text="Shareicon.net. (2017). Share Icon - more than 250.000 free icons. [online] Available at: https://www.shareicon.net [Accessed 12 Nov. 2017]." VerticalAlignment="Top" Width="1441" FontSize="36" Grid.ColumnSpan="2"/>
+        <TextBlock x:ConnectionId='36' x:Name="lblCopyRight_Copy1" HorizontalAlignment="Left" Height="211" Margin="259,255,0,0" TextWrapping="Wrap" Text="Stickers, i. and AI, I. (2017). Material Design Icons - 4,300 Free Icons. [online] Icons8. Available at: https://icons8.com/android-icons/ [Accessed 1 Nov. 2017]." VerticalAlignment="Top" Width="1441" FontSize="36" Grid.ColumnSpan="2"/>
+        <TextBlock x:ConnectionId='37' x:Name="lblCopyRight_Copy2" HorizontalAlignment="Left" Height="103" Margin="254,363,0,0" TextWrapping="Wrap" Text="Shareicon.net. (2017). Share Icon - more than 250.000 free icons. [online] Available at: https://www.shareicon.net [Accessed 12 Nov. 2017]." VerticalAlignment="Top" Width="1441" FontSize="36" Grid.ColumnSpan="2"/>
+        <TextBlock x:ConnectionId='38' x:Name="lblCopyRight_Copy3" HorizontalAlignment="Left" Height="103" Margin="254,471,0,0" TextWrapping="Wrap" Text="&quot;Google Maps&quot;, Google Maps, 2017. [Online]. Available: https://www.google.ca/maps?source=tldsi&amp;hl=en. [Accessed: 05- Dec- 2017]." VerticalAlignment="Top" Width="1441" FontSize="36" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Page>
