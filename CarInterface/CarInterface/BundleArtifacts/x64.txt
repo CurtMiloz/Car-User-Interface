@@ -1,2 +1,2 @@
-MainPackage=D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x64\Debug\CarInterface_3.1.0.0_x64_Debug.appx
-SymbolPackage=D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\AppPackages\CarInterface_3.1.0.0_Debug_Test\CarInterface_3.1.0.0_x64_Debug.appxsym
+MainPackage=C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x64\Debug\CarInterface_3.1.0.0_x64_Debug.appx
+SymbolPackage=C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\AppPackages\CarInterface_3.1.0.0_Debug_Test\CarInterface_3.1.0.0_x64_Debug.appxsym

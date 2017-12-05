@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Media.Playback;
 using Windows.Media.SpeechRecognition;
+using Windows.UI.Xaml;
 
 namespace CarInterface
 {
@@ -140,6 +142,15 @@ namespace CarInterface
         public async Task RecordSpeechFromMicrophoneAsync(string command)
         {
             string recognizedText = string.Empty;
+            if (this.mute ==false)
+            {
+                ElementSoundPlayer.State = ElementSoundPlayerState.On;
+                ElementSoundPlayer.Volume = 0.5;
+                ElementSoundPlayer.Play(ElementSoundKind.Invoke);
+                //BackgroundMediaPlayer.Current.SetUriSource(new Uri("ms-winsoundevent:Notification.Mail"));
+            }
+            
+            BackgroundMediaPlayer.Current.Play();
             Helper.MessageBoxLongAsync(command, "Voice");
             using (SpeechRecognizer recognizer =
               new Windows.Media.SpeechRecognition.SpeechRecognizer())

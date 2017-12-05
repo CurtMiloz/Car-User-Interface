@@ -247,6 +247,30 @@ namespace CarInterface
 
         }
 
+        private async void btVoiceCall_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                await manager.RecordSpeechFromMicrophoneAsync("Say who to call");
+
+                if (manager.VoiceResult.Contains("kevin") || manager.VoiceResult.Contains("call"))
+                {
+                    this.Frame.Navigate(typeof(InCallPage), "Kevin Bacon");
+
+                }
+                else
+                {
+                    Helper.MessageBoxLongAsync("Please Say Command again", "Voice");
+                }
+            }
+
+            catch (Exception ex)
+            {
+                Helper.MessageBoxLongAsync("Please Say Command again", "Voice");
+            }
+
+        }
+
 
         private void btPerson1_Click(object sender, RoutedEventArgs e)
         {
