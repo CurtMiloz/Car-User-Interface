@@ -25734,11 +25734,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\curtm\\Desktop\\Car-User-Interface\\CarInterface\\CarInterface\\CarInterface.csproj",
+      "projectUniqueName": "C:\\Users\\curtm\\Desktop\\Car-User-Interface\\CarInterface\\CarInterface\\CarInterface.csproj",
       "projectName": "CarInterface",
-      "projectPath": "D:\\curtm\\Desktop\\Car-User-Interface\\CarInterface\\CarInterface\\CarInterface.csproj",
+      "projectPath": "C:\\Users\\curtm\\Desktop\\Car-User-Interface\\CarInterface\\CarInterface\\CarInterface.csproj",
       "packagesPath": "C:\\Users\\curtm\\.nuget\\packages\\",
-      "outputPath": "D:\\curtm\\Desktop\\Car-User-Interface\\CarInterface\\CarInterface\\obj\\",
+      "outputPath": "C:\\Users\\curtm\\Desktop\\Car-User-Interface\\CarInterface\\CarInterface\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

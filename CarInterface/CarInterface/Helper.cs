@@ -57,6 +57,32 @@ namespace CarInterface
 
         }
 
+        public static async Task MessageBoxLongAsync(String message, String title)
+        {
+
+
+            ContentDialog dialog = new ContentDialog()
+            {
+                Title = title,
+
+            };
+            var panel = new StackPanel();
+
+            panel.Children.Add(new TextBlock
+            {
+                Text = message,
+                TextWrapping = TextWrapping.Wrap,
+            });
+            dialog.Content = panel;
+
+
+            var task = dialog.ShowAsync();
+            await Task.Delay(TimeSpan.FromSeconds(2));
+            dialog.Hide();
+
+
+
+        }
 
         public static async Task MessageBoxAsync(String message, String title)
         {

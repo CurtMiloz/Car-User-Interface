@@ -1015,6 +1015,8 @@ C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterf
 C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\CarInterface.csprojResolveAssemblyReference.cache
+D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\ForBundle\AppxManifest.xml
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\CarInterface.csprojResolveAssemblyReference.cache
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\App.g.i.cs
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\App.g.cs
@@ -1066,6 +1068,7 @@ C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debu
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\PairPage.xbf
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\SettingsPage.xbf
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\CarInterface.csproj.CoreCompileInputs.cache
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\App.xbf
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\AirPage.xbf
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\InCallPage.xbf
@@ -1085,6 +1088,7 @@ C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debu
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\AppxManifest.xml
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\AppxManifest.xml
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\CarInterface.exe
+C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\ForBundle\AppxManifest.xml
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.build.appxrecipe
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Microsoft.CSharp.dll
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll
@@ -1200,7 +1204,6 @@ C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debu
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\System.Xml.XDocument.dll
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\System.Xml.XmlSerializer.dll
-C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\CarInterface.csproj.CoreCompileInputs.cache
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\CarInterface.exe
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\CarInterface.pdb
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\ResourceHandlingTask.state
@@ -1278,5 +1281,3 @@ C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debu
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\Atef\Desktop\Uni\4HC3\project\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\CarInterface.csprojResolveAssemblyReference.cache
-D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\ForBundle\AppxManifest.xml

@@ -137,10 +137,10 @@ namespace CarInterface
 
 
 
-        public async Task RecordSpeechFromMicrophoneAsync()
+        public async Task RecordSpeechFromMicrophoneAsync(string command)
         {
             string recognizedText = string.Empty;
-
+            Helper.MessageBoxLongAsync(command, "Voice");
             using (SpeechRecognizer recognizer =
               new Windows.Media.SpeechRecognition.SpeechRecognizer())
             {

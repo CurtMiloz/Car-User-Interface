@@ -227,9 +227,9 @@ namespace CarInterface
         private async void btVoiceCall_ClickAsync(object sender, RoutedEventArgs e)
         {
 
-            await manager.RecordSpeechFromMicrophoneAsync();
+            await manager.RecordSpeechFromMicrophoneAsync("Say who to call");
 
-            if (manager.VoiceResult.Contains("Call"))
+            if (manager.VoiceResult.Contains("kevin")|| manager.VoiceResult.Contains("call"))
             {
                 this.Frame.Navigate(typeof(InCallPage), "Kevin Bacon");
 

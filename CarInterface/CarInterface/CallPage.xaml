@@ -83,7 +83,7 @@
         <TextBlock x:Name="lblTune" HorizontalAlignment="Left" Margin="569.5,177,0,0" TextWrapping="Wrap" Text="Tune" VerticalAlignment="Top" FontSize="36" Grid.Column="1"/>
         <TextBlock x:Name="lblAir" HorizontalAlignment="Left" Margin="990,935,0,0" TextWrapping="Wrap" Text="Air" VerticalAlignment="Top" FontSize="24" RenderTransformOrigin="-0.011,1.865"/>
         <Rectangle Fill="#FF75758F" HorizontalAlignment="Left" Height="658" Margin="266,10,0,0" Stroke="#FF7B7BFF" VerticalAlignment="Top" Width="1389" Grid.ColumnSpan="2"/>
-        <Button x:Name="btCallVoice" Content="" HorizontalAlignment="Left" Margin="314,406,0,0" VerticalAlignment="Top" Height="99" Width="109" Click="btVoiceCall_Click" FontSize="72">
+        <Button x:Name="btCallVoice" Content="" HorizontalAlignment="Left" Margin="314,406,0,0" VerticalAlignment="Top" Height="99" Width="109" Click="btVoiceCall_ClickAsync" FontSize="72">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Microphone.png"/>
             </Button.Background>

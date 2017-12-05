@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-PDNGKIV</Machine>
+    <Machine>DESKTOP-HOTPTGJ</Machine>
     <WindowsUser>curtm</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>962db3a9-c799-4b2c-98ae-8fb9ace75a5b</PackageIdentityName>
     <PackageIdentityPublisher>CN=curtm</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7342A8CFE097A072FE697C802C92EA8C9386636B92B9B1A6E2C6B1CD7C0AC95C</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>4205B0F19D72BCF5E423E01FAED5B85FD432E3908B60BE7C10CEFE249F434FEE</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>962db3a9-c799-4b2c-98ae-8fb9ace75a5b_3.1.0.0_x86__zfdkkwdft0sgr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>962db3a9-c799-4b2c-98ae-8fb9ace75a5b_zfdkkwdft0sgr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>962db3a9-c799-4b2c-98ae-8fb9ace75a5b</RegisteredPackageID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T02:51:10.772</Modified>
+      <Modified>2017-12-05T03:15:31.828</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.exe">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.exe">
       <PackagePath>entrypoint\CarInterface.exe</PackagePath>
-      <Modified>2017-12-05T02:51:10.130</Modified>
+      <Modified>2017-12-05T03:15:31.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curtm\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,216 +495,216 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-12T03:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Down.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Down.png">
       <PackagePath>Assets\Down.png</PackagePath>
-      <Modified>2017-11-27T21:55:50.405</Modified>
+      <Modified>2017-11-28T19:58:12.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Arrow_clicked.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Arrow_clicked.png">
       <PackagePath>Assets\icons\Down-Arrow_clicked.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Left-Arrow_clicked.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Left-Arrow_clicked.png">
       <PackagePath>Assets\icons\Down-Left-Arrow_clicked.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Right-Arrow_clicked.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Right-Arrow_clicked.png">
       <PackagePath>Assets\icons\Down-Right-Arrow_clicked.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down_and_up.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down_and_up.png">
       <PackagePath>Assets\icons\Down_and_up.png</PackagePath>
-      <Modified>2017-12-04T23:15:58.198</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Left-Arrow_clicked.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Left-Arrow_clicked.png">
       <PackagePath>Assets\icons\Left-Arrow_clicked.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\map.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\map.png">
       <PackagePath>Assets\icons\map.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.445</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Right-Arrow_clicked.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Right-Arrow_clicked.png">
       <PackagePath>Assets\icons\Right-Arrow_clicked.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\route-map.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\route-map.png">
       <PackagePath>Assets\icons\route-map.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.447</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Arrow_clicked.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Arrow_clicked.png">
       <PackagePath>Assets\icons\Up-Arrow_clicked.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Left-Arrow_clicked.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Left-Arrow_clicked.png">
       <PackagePath>Assets\icons\Up-Left-Arrow_clicked.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.444</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Right-Arrow_clicked.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Right-Arrow_clicked.png">
       <PackagePath>Assets\icons\Up-Right-Arrow_clicked.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.445</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Right-Arrow.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Right-Arrow.png">
       <PackagePath>Assets\icons\Up-Right-Arrow.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.445</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Left-Arrow.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Left-Arrow.png">
       <PackagePath>Assets\icons\Up-Left-Arrow.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.444</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Right-Arrow.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Right-Arrow.png">
       <PackagePath>Assets\icons\Down-Right-Arrow.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Left-Arrow.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Left-Arrow.png">
       <PackagePath>Assets\icons\Down-Left-Arrow.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down.png">
       <PackagePath>Assets\icons\Down.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.767</Modified>
+      <Modified>2017-11-26T02:40:22.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\FrontDefrost.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\FrontDefrost.png">
       <PackagePath>Assets\icons\FrontDefrost.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.767</Modified>
+      <Modified>2017-11-26T02:40:22.935</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Hazards.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Hazards.png">
       <PackagePath>Assets\icons\Hazards.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.771</Modified>
+      <Modified>2017-11-26T02:40:22.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\heatedSeat.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\heatedSeat.png">
       <PackagePath>Assets\icons\heatedSeat.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.774</Modified>
+      <Modified>2017-11-26T02:40:22.944</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Back-48.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Back-48.png">
       <PackagePath>Assets\icons\icons8-Back-48.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.775</Modified>
+      <Modified>2017-11-26T02:40:22.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Contacts-48.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Contacts-48.png">
       <PackagePath>Assets\icons\icons8-Contacts-48.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.776</Modified>
+      <Modified>2017-11-26T02:40:22.953</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Driving Filled-50.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Driving Filled-50.png">
       <PackagePath>Assets\icons\icons8-Driving Filled-50.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.776</Modified>
+      <Modified>2017-11-26T02:40:22.955</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Fan-48.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Fan-48.png">
       <PackagePath>Assets\icons\icons8-Fan-48.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.776</Modified>
+      <Modified>2017-11-26T02:40:22.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Music-48.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Music-48.png">
       <PackagePath>Assets\icons\icons8-Music-48.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.776</Modified>
+      <Modified>2017-11-26T02:40:22.962</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-NFC-48.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-NFC-48.png">
       <PackagePath>Assets\icons\icons8-NFC-48.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.777</Modified>
+      <Modified>2017-11-26T02:40:22.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Phone-48.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-Phone-48.png">
       <PackagePath>Assets\icons\icons8-Phone-48.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.777</Modified>
+      <Modified>2017-11-26T02:40:22.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-SUV-48.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\icons8-SUV-48.png">
       <PackagePath>Assets\icons\icons8-SUV-48.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.777</Modified>
+      <Modified>2017-11-26T02:40:22.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\InternalCirculate.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\InternalCirculate.png">
       <PackagePath>Assets\icons\InternalCirculate.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.771</Modified>
+      <Modified>2017-11-26T02:40:22.978</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Knob.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Knob.png">
       <PackagePath>Assets\icons\Knob.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.772</Modified>
+      <Modified>2017-11-26T02:40:22.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Arrow.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Down-Arrow.png">
       <PackagePath>Assets\icons\Down-Arrow.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Arrow.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Up-Arrow.png">
       <PackagePath>Assets\icons\Up-Arrow.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Microphone.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Microphone.png">
       <PackagePath>Assets\icons\Microphone.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.772</Modified>
+      <Modified>2017-11-26T02:40:22.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\RearDefrost.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\RearDefrost.png">
       <PackagePath>Assets\icons\RearDefrost.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.773</Modified>
+      <Modified>2017-11-26T02:40:22.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Left-Arrow.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Left-Arrow.png">
       <PackagePath>Assets\icons\Left-Arrow.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Right-Arrow.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\Right-Arrow.png">
       <PackagePath>Assets\icons\Right-Arrow.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.428</Modified>
+      <Modified>2017-12-04T18:56:00.958</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\tempDown.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\tempDown.png">
       <PackagePath>Assets\icons\tempDown.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.778</Modified>
+      <Modified>2017-11-26T02:40:22.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\TempUp.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\TempUp.png">
       <PackagePath>Assets\icons\TempUp.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.774</Modified>
+      <Modified>2017-11-26T02:40:22.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\up.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\icons\up.png">
       <PackagePath>Assets\icons\up.png</PackagePath>
-      <Modified>2017-12-04T00:38:59.447</Modified>
+      <Modified>2017-12-04T18:56:00.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-11-27T20:28:12.764</Modified>
+      <Modified>2017-11-21T08:39:03.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-27T20:28:12.764</Modified>
+      <Modified>2017-11-21T08:39:03.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-27T20:28:12.765</Modified>
+      <Modified>2017-11-21T08:39:03.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-27T20:28:12.765</Modified>
+      <Modified>2017-11-21T08:39:03.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-27T20:28:12.766</Modified>
+      <Modified>2017-11-21T08:39:03.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-27T20:28:12.766</Modified>
+      <Modified>2017-11-21T08:39:03.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-27T20:28:12.766</Modified>
+      <Modified>2017-11-21T08:39:03.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-11-27T20:28:12.785</Modified>
+      <Modified>2017-11-26T02:37:44.961</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.xr.xml">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.xr.xml">
       <PackagePath>CarInterface.xr.xml</PackagePath>
-      <Modified>2017-12-04T23:15:58.230</Modified>
+      <Modified>2017-12-04T20:40:12.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2017-10-27T03:24:12.262</Modified>
+      <Modified>2017-11-21T08:59:38.092</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T02:51:10.534</Modified>
+      <Modified>2017-12-05T03:06:19.565</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\CarInterface.exe">
+    <AppxPackagedFile Include="C:\Users\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\CarInterface.exe">
       <PackagePath>CarInterface.exe</PackagePath>
-      <Modified>2017-12-05T02:51:10.768</Modified>
+      <Modified>2017-12-05T03:15:31.825</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

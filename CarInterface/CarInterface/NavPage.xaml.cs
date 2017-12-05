@@ -187,9 +187,9 @@ namespace CarInterface
 
         private async void btTouchToSpeakAsync(object sender, RoutedEventArgs e)
         {
-            await manager.RecordSpeechFromMicrophoneAsync();
+            await manager.RecordSpeechFromMicrophoneAsync("Say where to navigate to");
 
-            if (manager.VoiceResult.Contains("Navigate"))
+            if (manager.VoiceResult.Contains("navigate")|| manager.VoiceResult.Contains("gas"))
             {
                 manager.navImage = "Assets/icons/route-map.png";
                 loadMap();
