@@ -187,14 +187,26 @@ namespace CarInterface
 
         private async void btTouchToSpeakAsync(object sender, RoutedEventArgs e)
         {
-            await manager.RecordSpeechFromMicrophoneAsync("Say where to navigate to");
-
-            if (manager.VoiceResult.Contains("navigate")|| manager.VoiceResult.Contains("gas"))
+            try
             {
-                manager.navImage = "Assets/icons/route-map.png";
-                loadMap();
+                await manager.RecordSpeechFromMicrophoneAsync("Say where to navigate to");
+
+                if (manager.VoiceResult.Contains("navigate") || manager.VoiceResult.Contains("gas"))
+                {
+                    manager.navImage = "Assets/icons/route-map.png";
+                    loadMap();
+
+                }
+                else
+                {
+                    Helper.MessageBoxLongAsync("Please Say Command again", "Voice");
+                }
 
             }
+            catch (Exception ex) {
+                Helper.MessageBoxLongAsync("Please Say Command again", "Voice");
+            }
+            
            
         }
 

@@ -45,12 +45,13 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <DeviceCapability Name="microphone" />
   </Capabilities>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="15.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017" />
-    <build:Item Name="OperatingSystem" Version="10.0.15063.0 (WinBuild.160101.0800)" />
+    <build:Item Name="OperatingSystem" Version="10.0.16299.15 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26906.1" />
     <build:Item Name="ProjectGUID" Value="{80535F09-14CE-4F2D-95AA-FF1176A09867}" />
     <build:Item Name="OptimizingToolset" Value="None" />

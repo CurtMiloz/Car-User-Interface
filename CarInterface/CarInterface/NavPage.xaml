@@ -86,7 +86,7 @@
         <Image x:Name="btMap"   Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="554" Margin="626,114,0,0" VerticalAlignment="Top" Width="1044">
             
         </Image>
-        <TextBlock x:Name="txtNav" HorizontalAlignment="Left" Margin="704,18,0,0" TextWrapping="Wrap" Text="Navigating to:" VerticalAlignment="Top" FontSize="72" SelectionChanged="txtNav_SelectionChanged"/>
+        <TextBlock x:Name="txtNav" HorizontalAlignment="Left" Margin="704,18,0,0" TextWrapping="Wrap" Text="Navigating to: Gas Station" VerticalAlignment="Top" FontSize="72" SelectionChanged="txtNav_SelectionChanged" Grid.ColumnSpan="2" Width="901"/>
         <Button x:Name="btSpeakToNav" Content="" HorizontalAlignment="Left" Margin="297,370,0,0" VerticalAlignment="Top" Height="142" Width="133" Click="btTouchToSpeakAsync" FontSize="72">
             <Button.Background>
                 <ImageBrush Stretch="Fill" ImageSource="Assets/icons/Microphone.png"/>
