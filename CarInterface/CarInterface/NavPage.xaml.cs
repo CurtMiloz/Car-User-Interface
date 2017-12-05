@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -184,11 +185,20 @@ namespace CarInterface
             this.Frame.Navigate(typeof(NavPage));
         }
 
-        private void btTouchToSpeak(object sender, RoutedEventArgs e)
+        private async void btTouchToSpeakAsync(object sender, RoutedEventArgs e)
         {
-            manager.navImage = "Assets/icons/route-map.png";
-            loadMap();
+            await manager.RecordSpeechFromMicrophoneAsync();
+
+            if (manager.VoiceResult.Contains("Navigate"))
+            {
+                manager.navImage = "Assets/icons/route-map.png";
+                loadMap();
+
+            }
+           
         }
+
+       
 
         private void btCancel_Click(object sender, RoutedEventArgs e)
         {

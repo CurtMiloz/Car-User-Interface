@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T01:10:21.444</Modified>
+      <Modified>2017-12-05T02:51:10.772</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\CarInterface.exe">
       <PackagePath>entrypoint\CarInterface.exe</PackagePath>
-      <Modified>2017-12-05T01:10:21.027</Modified>
+      <Modified>2017-12-05T02:51:10.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\curtm\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -700,11 +700,11 @@
     <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-05T01:10:21.318</Modified>
+      <Modified>2017-12-05T02:51:10.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\bin\x86\Debug\Core\CarInterface.exe">
       <PackagePath>CarInterface.exe</PackagePath>
-      <Modified>2017-12-05T01:10:21.443</Modified>
+      <Modified>2017-12-05T02:51:10.768</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

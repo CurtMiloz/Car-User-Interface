@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Threading.Tasks;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -223,11 +224,20 @@ namespace CarInterface
 
         }
 
-        private void btVoiceCall_Click(object sender, RoutedEventArgs e)
+        private async void btVoiceCall_ClickAsync(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(InCallPage), "Kevin Bacon");
+
+            await manager.RecordSpeechFromMicrophoneAsync();
+
+            if (manager.VoiceResult.Contains("Call"))
+            {
+                this.Frame.Navigate(typeof(InCallPage), "Kevin Bacon");
+
+            }
+            
         }
-        
+
+
         private void btPerson1_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(InCallPage), "person 1");

@@ -240,7 +240,7 @@ namespace CarInterface
                 {
                     this.btSpeakToNav = (global::Windows.UI.Xaml.Controls.Button)(target);
                     #line 90 "..\..\..\NavPage.xaml"
-                    ((global::Windows.UI.Xaml.Controls.Button)this.btSpeakToNav).Click += this.btTouchToSpeak;
+                    ((global::Windows.UI.Xaml.Controls.Button)this.btSpeakToNav).Click += this.btTouchToSpeakAsync;
                     #line default
                 }
                 break;

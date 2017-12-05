@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.Media.SpeechRecognition;
 
 namespace CarInterface
 {
@@ -19,7 +20,7 @@ namespace CarInterface
 
         public static Manager manager;
 
-
+        public string VoiceResult = "";
         public bool mute = false;
         public int volume = 5;
         public int airLeft = 23;
@@ -132,6 +133,27 @@ namespace CarInterface
         {
             if (airRight > 16) { airRight = airRight - 1; }
             Helper.MessageBoxAsync(airRight.ToString(), "Right Side Temperature");
+        }
+
+
+
+        public async Task RecordSpeechFromMicrophoneAsync()
+        {
+            string recognizedText = string.Empty;
+
+            using (SpeechRecognizer recognizer =
+              new Windows.Media.SpeechRecognition.SpeechRecognizer())
+            {
+                await recognizer.CompileConstraintsAsync();
+
+                SpeechRecognitionResult result = await recognizer.RecognizeAsync();
+
+                if (result.Status == SpeechRecognitionResultStatus.Success)
+                {
+                    recognizedText = result.Text;
+                }
+            }
+            VoiceResult= (recognizedText);
         }
 
     }

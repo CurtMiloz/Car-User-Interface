@@ -227,7 +227,7 @@ namespace CarInterface
                 {
                     this.btCallVoice = (global::Windows.UI.Xaml.Controls.Button)(target);
                     #line 86 "..\..\..\CallPage.xaml"
-                    ((global::Windows.UI.Xaml.Controls.Button)this.btCallVoice).Click += this.btVoiceCall_Click;
+                    ((global::Windows.UI.Xaml.Controls.Button)this.btCallVoice).Click += this.btVoiceCall_ClickAsync;
                     #line default
                 }
                 break;
