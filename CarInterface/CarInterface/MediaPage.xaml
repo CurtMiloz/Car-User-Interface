@@ -25,9 +25,9 @@
         <Button x:Name="btPlaylist3" Content="Playlist 3" HorizontalAlignment="Left" Margin="266,290,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="112" Width="255" Click="btPlaylist3_Click" FontSize="48"/>
         <Button x:Name="btPlaylist4" Content="Playlist 4" HorizontalAlignment="Left" Margin="266,424,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="112" Width="255" Click="btPlaylist4_Click" FontSize="48"/>
         <Button x:Name="btPlaylist5" Content="Playlist 5" HorizontalAlignment="Left" Margin="266,556,0,0" VerticalAlignment="Top" Background="#FF4BA4D6" Height="112" Width="255" Click="btPlaylist5_Click" FontSize="48"/>
-        <TextBlock x:Name="lblSong" HorizontalAlignment="Left" Margin="704,138,0,0" TextWrapping="Wrap" Text="Heat of the Moment" VerticalAlignment="Top" FontSize="72" Grid.ColumnSpan="2"/>
-        <TextBlock x:Name="lblArtist" HorizontalAlignment="Left" Margin="704,264,0,0" TextWrapping="Wrap" Text="by: Asia" VerticalAlignment="Top" FontSize="48"/>
-        <TextBlock x:Name="lblPlaylist" HorizontalAlignment="Left" Margin="704,350,0,0" TextWrapping="Wrap" Text="Awesome 80's Tunes" VerticalAlignment="Top" FontSize="48"/>
+        <TextBlock x:Name="lblSong" HorizontalAlignment="Left" Margin="628,138,0,0" TextWrapping="Wrap" Text="Heat of the Moment" VerticalAlignment="Top" FontSize="72" Grid.ColumnSpan="2" Width="998"/>
+        <TextBlock x:Name="lblArtist" HorizontalAlignment="Left" Margin="628,264,0,0" TextWrapping="Wrap" Text="by: Asia" VerticalAlignment="Top" FontSize="48"/>
+        <TextBlock x:Name="lblPlaylist" HorizontalAlignment="Left" Margin="628,350,0,0" TextWrapping="Wrap" Text="Awesome 80's Tunes" VerticalAlignment="Top" FontSize="48"/>
         <Button x:Name="btSet" Content="Set Playlist" HorizontalAlignment="Left" Margin="246,464,0,0" VerticalAlignment="Top" Background="#FF4634A6" Height="114" Width="217" Click="btsetPlaylist_Click" FontSize="36" Grid.Column="1"/>
         <Button x:Name="btForward" Content="" HorizontalAlignment="Left" Margin="1071,467.5,-8,0" VerticalAlignment="Top" Height="112" Width="119" Click="btTuneForward_Click" FontSize="36" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.RenderTransform>

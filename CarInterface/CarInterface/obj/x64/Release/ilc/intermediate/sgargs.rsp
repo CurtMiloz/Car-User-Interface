@@ -1,0 +1,11 @@
+/out:"D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x64\Release\ilc\intermediate\SgGenerated\\"
+/int:"D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x64\Release\ilc\intermediate\\"
+/ref:"D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x64\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x64\Release\ilc\intermediate\TransformedSRWR"
+/ref:"D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x64\Release\ilc\in"
+/ref:"D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x64\Release\ilc\in\\"
+/ref:"D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x64\Release\ilc\in\\"
+/ref:"C:\Users\curtm\.nuget\packages\microsoft.net.native.compiler\1.7.1\tools\x64\ilc\lib\Private\\"
+/ref:"D:\curtm\Desktop\Car-User-Interface\CarInterface\CarInterface\obj\x64\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Users\curtm\.nuget\packages\microsoft.net.native.compiler\1.7.1\tools\x64\ilc\csc"

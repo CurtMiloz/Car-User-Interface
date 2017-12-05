@@ -52,6 +52,37 @@ namespace CarInterface
           
             setPlaylist(manager.currentStation);
 
+            if (manager.connected)
+            {
+                this.btPlaylist1.Visibility = Visibility.Visible;
+                this.btPlaylist2.Visibility = Visibility.Visible;
+                this.btPlaylist3.Visibility = Visibility.Visible;
+                this.btPlaylist4.Visibility = Visibility.Visible;
+                this.btPlaylist5.Visibility = Visibility.Visible;
+                this.lblArtist.Visibility = Visibility.Visible;
+                this.lblPlaylist.Visibility = Visibility.Visible;
+                this.btSet.Visibility = Visibility.Visible;
+                this.btVoice.Visibility = Visibility.Visible;
+                this.btForward.Visibility = Visibility.Visible;
+                this.btBack.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                this.lblSong.Text = "Please pair phone, click settings and go to pairing phone";
+                this.btPlaylist1.Visibility = Visibility.Collapsed;
+                this.btPlaylist2.Visibility = Visibility.Collapsed;
+                this.btPlaylist3.Visibility = Visibility.Collapsed;
+                this.btPlaylist4.Visibility = Visibility.Collapsed;
+                this.btPlaylist5.Visibility = Visibility.Collapsed;
+                this.lblArtist.Visibility = Visibility.Collapsed;
+                this.lblPlaylist.Visibility = Visibility.Collapsed;
+                this.btSet.Visibility = Visibility.Collapsed;
+                this.btVoice.Visibility = Visibility.Collapsed;
+                this.btForward.Visibility = Visibility.Collapsed;
+                this.btBack.Visibility = Visibility.Collapsed;
+
+            }
+
         }
 
 
